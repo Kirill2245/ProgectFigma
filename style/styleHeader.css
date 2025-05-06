@@ -1,0 +1,143 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    padding-left: 25.05%;
+    margin: 0;
+    width: 100%;
+}
+.headerMenu{
+    display: flex;
+    width: 960px;
+    height: 76px;
+}
+.logo{
+    width: 50px;
+    height: 55.5px;
+    margin-top: 10.25px;
+    margin-bottom: 10.25px;
+}
+.btnMenu{
+    height: 24.17px;
+    width: 384.27px;
+    display: flex;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    margin-left: 235.81px;
+}
+.btnMenu img{
+    width: 12px;
+    height: 12px;
+    margin-top: 4.34px;
+    margin-bottom: 7.67px;
+}
+.btnMenu button{
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    color: #343A40;
+    letter-spacing: 0%;
+    font-weight: 400;
+    padding: 0;
+}
+.btnHome{
+    width: 44px;
+    height: auto;
+    margin-bottom: 0.17px;
+}
+.btnFeatures{
+    width: 62px;
+    height: auto;
+    margin-left: 27.45px;
+    margin-bottom: 0.17px;
+}
+.btnTestimonial{
+    width: 84px;
+    height: auto;
+    margin-left: 27.45px;
+    margin-bottom: 0.17px;
+}
+.btnTeam{
+    width: 40px;
+    height: auto;
+    margin-left: 25.09px;
+    margin-bottom: 0.17px;
+}
+.btnMore{
+    width: 37px;
+    height: auto;
+    margin-left: 25.36px;
+    margin-top: 0.17px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 58px;
+    height: 24px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    margin-left: 67.92px;
+}
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    background-color: #20014D;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#20014D;
+    transition: .4s;
+    border-radius: 40px;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 2px;
+    bottom: 2px;
+    background-color: #F1C40F;
+    transition: .4s;
+    border-radius: 50%;
+}
+input:checked + .slider {
+    background-color: #EF5B59;
+}
+input:checked + .slider:before {
+    transform: translateX(34px);
+}
+.btnContact{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    color:#EF5B59;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    border:1px solid #EF5B59 ;
+    border-radius: 4px;
+    width: 85px;
+    height: 40px;
+    padding:12px 16px;
+    margin-left: 79px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    gap: 10px;
+    background-color: #FFFFFF;
+    transition: color 4s ease;
+    transition: background-color 1s ease;
+}
+.btnContact:hover{
+    background-color: #EF5B59;
+    color: #FFFFFF;
+}
