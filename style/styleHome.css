@@ -1,0 +1,172 @@
+.hero{
+    width: 960px;
+    height: 428px;
+    margin-left: 25.05%;
+    margin-right: 25.05%;
+    padding-top: 12px;
+    padding-bottom: 58px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.boxHero{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.heroImg{
+    width: 553px;
+    height: 358px;
+    margin-top: 12px;
+    margin-bottom: 58px;
+}
+.boxHero h1{
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    color: #343A40;
+    margin-top: 33.93px;
+    font-weight: 700;
+}
+.boxHero p{
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #A5A8AC;
+    margin-top: 15.98px;
+    font-weight: 400;
+}
+.textBox{
+    margin-left: 98.59px;
+}
+.btnGet{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    border:1px solid #EF5B59 ;
+    border-radius: 4px;
+    width: 145px;
+    height: 40px;
+    padding:12px 16px;
+    margin-top: 14.35px;
+    margin-bottom: 29px;
+    margin-right: 164px;
+    gap: 10px;
+    background-color: #EF5B59;
+    transition: color 1s ease;
+    transition: background-color 0.6s ease;
+    font-weight: 600;
+}
+.btnGet:hover{
+    background-color: #FFFFFF;
+    color:#EF5B59;
+}
+
+.subscrible{
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+    background-color: #F4F7FE;
+    /* padding: 82px 40.06% 81.72px 40.02%; */
+    padding-left: 40.02%;
+    padding-right: 40.06%;
+}
+.group{
+    margin-top: 82px;
+    margin-bottom: 81.72px;
+    width: 383.23px;
+    height: 236px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.group img {
+    width: 22.72px;
+    height: 20.69px;
+}
+
+.group h2 {
+    font-size: 32px;          /* Размер шрифта */
+    line-height: 36px;       /* Высота строки */
+    letter-spacing: 0;        /* Межбуквенное расстояние */
+    text-align: center;       /* Горизонтальное выравнивание по центру */
+    display: flex;            /* Используем flexbox для вертикального выравнивания */
+    align-items: center;      /* Вертикальное выравнивание по центру */
+    justify-content: center;   /* Горизонтальное выравнивание по центру (если требуется) */
+    font-weight: 700; 
+    margin-top: 11.9px;   
+}
+
+.group p {
+    text-align: center;
+    letter-spacing: 0;
+}
+
+.textGroup_1{
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12.26px;
+}
+.textGroup_2{
+    color: #343A40;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 15.28px;
+}
+
+.boxInputSub{
+    width: 100%;
+    height: 16.92%;
+    display: flex;
+    margin-top: 12.5px;
+}
+.boxInputSub input {
+    width: 70.19%;
+    height: 40px;
+    margin-right: 16px;
+    border: 1px solid #757575;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.boxInputSub input::placeholder {
+    font-weight: 400;        
+    font-size: 12px;         
+    line-height: 16px;       
+    letter-spacing: 0;        
+    color: #757575;             
+}
+.boxInputSub button{
+    width: 25.57%;
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    padding:12px 16px;
+    gap:10px;
+    border-radius: 4px;
+    border: none;
+    background-color: #EF5B59;
+    transition: color 1s ease;
+    transition: background-color 0.6s ease;
+}
+.boxInputSub button:hover{
+    background-color: #FFFFFF;
+    color:#EF5B59;
+    border: 1px solid #EF5B59;
+}
