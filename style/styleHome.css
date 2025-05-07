@@ -70,11 +70,15 @@
 .subscrible{
     overflow: hidden;
     width: 100%;
+    max-width: 100%;
+    min-width: 1924px;
     height: 400px;
     background-color: #F4F7FE;
-    /* padding: 82px 40.06% 81.72px 40.02%; */
     padding-left: 40.02%;
     padding-right: 40.06%;
+    /* padding-left: 770px;
+    padding-right: 770.77px; */
+    box-sizing: border-box;
 }
 .group{
     margin-top: 82px;
@@ -92,13 +96,13 @@
 }
 
 .group h2 {
-    font-size: 32px;          /* Размер шрифта */
-    line-height: 36px;       /* Высота строки */
-    letter-spacing: 0;        /* Межбуквенное расстояние */
-    text-align: center;       /* Горизонтальное выравнивание по центру */
-    display: flex;            /* Используем flexbox для вертикального выравнивания */
-    align-items: center;      /* Вертикальное выравнивание по центру */
-    justify-content: center;   /* Горизонтальное выравнивание по центру (если требуется) */
+    font-size: 32px;          
+    line-height: 36px;       
+    letter-spacing: 0;       
+    text-align: center;       
+    display: flex;            
+    align-items: center;      
+    justify-content: center;   
     font-weight: 700; 
     margin-top: 11.9px;   
 }

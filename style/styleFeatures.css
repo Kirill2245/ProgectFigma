@@ -1,0 +1,115 @@
+.features{
+    width: 962px;
+    height: 1157px;
+    margin: 80px 24.19% 80px 25.77%;
+    display: flex;
+    flex-direction: column;
+}
+.features h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color: #343A40;
+    margin: 0 25.06% 68px;
+}
+.projectSection{
+    width: 100%;
+    height: 100%;
+}
+.projectSection div{
+    width: 100%;
+    margin-bottom: 41.5px;
+}
+.projectSection h3{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #343A40;
+    margin-bottom: 3px;
+}
+.projectSection p{
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-top: 0;
+}
+.group1{
+    height: 265px;
+    display: flex;
+    width: 100%;
+}
+.group1 div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 98px;
+    height: 100%;
+}
+.group1 img{
+    width: 57.6%;
+    height: 100%;
+}
+.group1 h3{
+    margin-left: 1.27px;
+    margin-top: 49px;
+}
+.group1 p{
+    height: 112.86px;
+    margin-bottom: 68px;
+}
+.group2{
+    height: 364px;
+    display: flex;
+    width: 100%;
+}
+.group2 div{
+    display: flex;
+    flex-direction: column;
+    margin-right: 179px;
+}
+.group2 h3{
+    margin-top: 91px;
+    margin-right: 1.27px;
+}
+.group2 p {
+    margin-bottom: 125px;
+    margin-left: 1.27px;
+}
+.group2 img{
+    width: 49.1%;
+    height: 100%;
+}
+.group3{
+    display: flex;
+    height: 341px;
+    width: 100%;
+}
+.group3 div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 179px;
+}
+.group3 img{
+    width: 49.06%;
+    height: 100%;
+}
+.group3 h3{
+    margin-top: 46.5px;
+    margin-left: 1.27px;
+}
+.group3{
+    margin-bottom: 146.64px;
+}
+/* companies */
+.companies{
+    width: 100%;
+    max-width: 100%;
+    min-width: 1924px;
+    overflow: hidden;
+    height: 269px;
+    background-color: #20014D;
+    box-sizing: border-box;
+}
