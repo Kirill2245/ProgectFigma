@@ -68,7 +68,6 @@
 }
 
 .subscrible{
-    overflow: hidden;
     width: 100%;
     max-width: 100%;
     min-width: 1924px;
@@ -76,9 +75,8 @@
     background-color: #F4F7FE;
     padding-left: 40.02%;
     padding-right: 40.06%;
-    /* padding-left: 770px;
-    padding-right: 770.77px; */
     box-sizing: border-box;
+    display: flex;
 }
 .group{
     margin-top: 82px;
@@ -104,12 +102,13 @@
     align-items: center;      
     justify-content: center;   
     font-weight: 700; 
-    margin-top: 11.9px;   
+    margin-top: 11.9px; 
+    margin-bottom: 0;  
 }
 
 .group p {
     text-align: center;
-    letter-spacing: 0;
+    letter-spacing: 0;  
 }
 
 .textGroup_1{
@@ -117,6 +116,7 @@
     font-size: 16px;
     font-weight: 400;
     margin-top: 12.26px;
+    margin-bottom: 12.15px;
 }
 .textGroup_2{
     color: #343A40;
@@ -125,13 +125,13 @@
     font-size: 12px;
     line-height: 16px;
     margin-top: 15.28px;
+    margin-bottom: 0;
 }
 
 .boxInputSub{
     width: 100%;
     height: 16.92%;
     display: flex;
-    margin-top: 12.5px;
 }
 .boxInputSub input {
     width: 70.19%;

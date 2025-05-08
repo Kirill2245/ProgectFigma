@@ -1,0 +1,100 @@
+.testimonials{
+    margin-top: 80px;
+    width: 960px;
+    height: 399px;
+    display: flex;
+    flex-direction: column;
+    margin-left:25.05%;
+    margin-right:25.05%;
+}
+.testimonials h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color:#343A40;
+    margin-left: 385px;
+    margin-right: 389px;
+    margin-bottom: 25.23px;
+    margin-top: 0;
+    width: 186px;
+    height: 27.77px;
+}
+.testimoialsP{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: 282px;
+    margin-right: 277px;
+    color: #757575;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 401px;
+    height: 18.51px;
+}
+.boxGroupTestimonials {
+    display: flex;
+    margin-top: 61.49px;
+}
+.groupTestimonials{
+    width: 309px;
+    height: 266px;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.restangle{
+    width: 100%;
+    height: 139.62px;
+    box-shadow: 0px 10px 20px 0px #00000040;
+    border-radius: 8px;
+    color:#757575;
+    padding: 16px 6.53px 11.62px 11.76px;
+    box-sizing: border-box;
+}
+.restangle p{
+    margin: 0;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+.profile{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 26.38px;
+}
+.profile div {
+    display: flex;
+    flex-direction: column;
+}
+.profile img{
+    width: 100px;
+    height: 100px;
+}
+.profile h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    width: 134.72px;
+    text-align: center;
+    margin-left: 13px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.profile p{
+    width: 179.99px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 13px;
+    color: #757575;
+}

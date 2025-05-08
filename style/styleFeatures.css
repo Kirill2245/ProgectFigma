@@ -108,8 +108,81 @@
     width: 100%;
     max-width: 100%;
     min-width: 1924px;
-    overflow: hidden;
+    /* overflow: hidden; */
     height: 269px;
     background-color: #20014D;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding-left: 23.28%;
+    padding-right: 25.25%;
+    color: #F4F7FE;
 }
+.companies h2{
+    width: 364px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    margin-left: 328px;
+    margin-right:298px ;
+    text-align: center;
+}
+.companies p{
+    width: 244px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    margin: 0;
+    margin-left: 390px;
+    margin-right: 358px;
+    text-align: center;
+}
+.imgGroup{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    height: 105px;
+    width: 990px;
+    display: flex;
+    /* align-items: center; */
+}
+.imgGroup img{
+    width: 100px;
+    margin-left: 78px;
+}
+.img1{
+    height: 75px;
+}
+.img2{
+    height: 35.4px;
+}
+.img3{
+    height: 100px;
+}
+#intel{
+    margin-bottom: 5px;
+}
+#adobe{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 0;
+}
+#amazon{
+    margin-top: 19px;
+    margin-bottom: 11px;
+}
+#face{
+    margin-top: 11px;
+    margin-bottom: 21px;
+}
+#samsung{
+    margin-top: 5px;
+}
+#google{
+    margin-top: 33px;
+    margin-bottom: 36.6px;
+}
+
