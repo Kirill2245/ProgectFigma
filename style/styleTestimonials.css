@@ -98,3 +98,12 @@
     margin-left: 13px;
     color: #757575;
 }
+@media(max-width:1600px){
+
+}
+@media(max-width:1440px){
+    .testimonials{
+        margin-left:16.46%;
+        margin-right:16.875%;
+    }
+}

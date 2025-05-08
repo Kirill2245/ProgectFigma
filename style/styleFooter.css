@@ -132,3 +132,12 @@ footer{
     display: flex;
     flex-direction: column;
 }
+@media(max-width:1600px){
+
+}
+@media(max-width:1440px){
+    footer{
+        padding-left: 16.8%;
+        padding-right: 13.19%;
+    }
+}

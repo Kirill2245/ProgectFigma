@@ -153,10 +153,10 @@ input:checked + .slider:before {
     color: #FFFFFF;
 }
 @media(max-width:1600px){
-    header{
+    /* header{
         padding-left: 21.375%;
         padding-right: 23.47%;
-    }
+    } */
 }
 @media(max-width:1440px){
     header{

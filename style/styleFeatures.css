@@ -184,4 +184,15 @@
     margin-top: 33px;
     margin-bottom: 36.6px;
 }
+@media(max-width:1600px){
 
+}
+@media(max-width:1440px){
+    .features{
+        margin-left: 17.77%;
+        margin-right: 15.37;
+    }
+    .companies{
+        padding-left: 15.75%;
+    }
+}
