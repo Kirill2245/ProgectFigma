@@ -7,6 +7,7 @@
     padding-bottom: 58px;
     margin-top: 80px;
     margin-bottom: 80px;
+    box-sizing: border-box;
 }
 .boxHero{
     width: 100%;
@@ -16,24 +17,28 @@
 .heroImg{
     width: 553px;
     height: 358px;
-    margin-top: 12px;
-    margin-bottom: 58px;
 }
 .boxHero h1{
+    width: 308.41px;
+    height: 73.82px;
     font-size: 40px;
     line-height: 40px;
     letter-spacing: 0%;
     color: #343A40;
-    margin-top: 33.93px;
+    margin-top: 21.93px;
     font-weight: 700;
+    margin-bottom: 0;
 }
 .boxHero p{
+    width: 308.41px;
+    height: 162.92px;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0%;
     color: #A5A8AC;
     margin-top: 15.98px;
     font-weight: 400;
+    margin-bottom: 0;
 }
 .textBox{
     margin-left: 98.59px;
@@ -188,9 +193,127 @@
 @media(max-width:1600px){
 
 }
+
 @media(max-width:1440px){
     .hero{
         margin-left: 16.8%;
         margin-right: 16.52%;
     }
 }
+
+@media(max-width:1250px){
+    .hero{
+        margin-left: 14.8%;
+        margin-right: 14.52%;
+    }
+    .subscrible{
+        padding-left: 38.02%;
+    }
+}
+
+@media(max-width:1150px){
+    .hero{
+        margin-left: 10.8%;
+        margin-right: 10.52%;
+    }
+    .subscrible{
+        padding-left: 34.02%;
+    }
+}
+
+@media(max-width:1080px){
+    .subscrible{
+        padding-left: 30.02%;
+    }
+    .hero{
+        margin-left: 6.8%;
+        margin-right: 6.52%;
+        padding-left: 0.5%;
+        padding-right: 12.7%;
+        padding-top: 7.94%;
+        padding-bottom: 23.55%;
+    }
+    .boxHero{
+        width: 818px;
+        height: 400.92px;
+    }
+    .heroImg{
+        width: 449.23px;
+        height: 300px;
+    }
+    .textBox h1{
+        width: 310.39px;
+        height: 73.82px;
+        font-size: 38px;
+        line-height: 40px;
+        margin-top: 0;
+    }
+    .textBox{
+        margin-left: 58.37px;
+    }
+    .textBox p{
+        width: 310.39px;
+        height: 162.92px;
+        margin-top: 5.18px;
+        font-size: 19px;
+        line-height: 24px;
+    }
+    .btnGet{
+        margin-top: 6px;
+    }
+}
+@media(max-width:1150px){
+    .hero{
+        margin-left: 6.8%;
+        margin-right: 6.52%;
+    }
+    .subscrible{
+        padding-left: 26.02%;
+    }
+}
+@media(max-width:990px){
+    .hero{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .subscrible{
+        padding-left: 22.02%;
+    }
+}
+/*для 768px*/
+/* @media(max-width:1080px){ 
+    .hero{
+        padding-left: 12.5%;
+        padding-right: 12.7%;
+        padding-top: 34px;
+        padding-bottom: 155px;
+    }
+    .boxHero{
+        width: 718px;
+        height: 300.92px;
+    }
+    .heroImg{
+        width: 349.23px;
+        height: 224px;
+    }
+    .textBox h1{
+        width: 310.39px;
+        height: 73.82px;
+        font-size: 32px;
+        line-height: 36px;
+        margin-top: 0;
+    }
+    .textBox{
+        margin-left: 58.37px;
+    }
+    .textBox p{
+        width: 310.39px;
+        height: 162.92px;
+        margin-top: 2.18px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .btnGet{
+        margin-top: 0px;
+    }
+} */

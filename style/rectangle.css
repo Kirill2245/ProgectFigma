@@ -45,7 +45,7 @@
     color: #757575;
 }
 .boxCard{
-    display: inline-flex;
+    display: flex;
     margin-top: 53px;
     width: 100%;
 }
@@ -226,5 +226,49 @@
 @media(max-width:1440px){
     .rectangle1{
         padding-left: 17%;
+    }
+}
+
+@media(max-width:1250px){
+    .rectangle1{
+        padding-left: 15%;
+    }
+}
+
+@media(max-width:1150px){
+    .rectangle1{
+        padding-left: 11%;
+    }
+}
+
+@media(max-width:1080px){
+    .rectangle1{
+        padding-left: 7%;
+    }
+}
+@media(max-width:1050px){
+    .rectangle1{
+        padding-left: 3%;
+    }
+}
+@media(max-width:990px){
+    .rectangle1{
+        padding-left: 30.28%;
+        height: auto;
+    }
+    .boxCard{
+        flex-direction: column;
+        margin-bottom: 71px;
+    }
+    .boxTextRectangle{
+        margin-left: 5px;
+    }
+    .cardOne{
+        margin-right: 0px;
+        margin-bottom: 16px;
+    }
+    .cardTwo{
+        margin-right: 0;
+        margin-bottom: 16px;
     }
 }

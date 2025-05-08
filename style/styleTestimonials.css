@@ -107,3 +107,56 @@
         margin-right:16.875%;
     }
 }
+
+@media(max-width:1250px){
+    .testimonials{
+        margin-left:14.46%;
+        margin-right:14.875%;
+    }
+}
+
+@media(max-width:1150px){
+    .testimonials{
+        margin-left:10.46%;
+        margin-right:10.875%;
+    }
+}
+
+@media(max-width:1080px){
+    .testimonials{
+        margin-left:6.46%;
+        margin-right:6.875%;
+    }
+}
+@media(max-width:1080px){
+    .testimonials{
+        margin-left:2.46%;
+        margin-right:2.875%;
+    }
+}
+/* @media(max-width:990px){
+    .testimonials{
+        margin-left:25.39%;
+        margin-right:22.39%;
+        height:auto;
+    }
+    .testimonials h2{
+        margin-left: 13.41%;
+        margin-right: 14.58%;
+    }
+    .boxGroupTestimonials{
+        flex-direction: column;
+        height:100%;
+    }
+} */
+@media(max-width:990px){
+    .testimonials{
+        margin-left:0.39%;
+        margin-right:0.39%;
+        height:auto;
+    }
+    .boxGroupTestimonials{
+        flex-wrap: wrap;
+        margin-left: 100px;
+    }
+}

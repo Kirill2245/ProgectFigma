@@ -7,7 +7,6 @@ body{
     display: flex; 
     flex-direction: column;
     justify-content: center; 
-    
 }
 header{
     padding-left: 25.05%;
@@ -158,6 +157,7 @@ input:checked + .slider:before {
         padding-right: 23.47%;
     } */
 }
+
 @media(max-width:1440px){
     header{
         padding-left: 16.8%;
@@ -179,5 +179,54 @@ input:checked + .slider:before {
     }
     .btnContact{
         margin-left: 54px;
+    }
+}
+
+@media(max-width:1250px){
+    header{
+        padding-left: 14.8%;
+        padding-right: 14.52%;
+    }
+}
+
+@media(max-width:1150px){
+    header{
+        padding-left: 10.8%;
+        padding-right: 10.52%;
+    }
+}
+
+@media(max-width:1080px){
+    header{
+        padding-left: 6.8%;
+        padding-right: 6.52%;
+    }
+}
+
+@media(max-width:1080px){
+    /* header{
+        padding-left: 6.8%;
+        padding-right: 6.52%;
+    } */
+    .btnMenu{
+        margin-left: 215.81px;
+    }
+    .switch {
+        margin-left: 47.92px;
+    }
+    .btnContact{
+        margin-left: 34px;
+    }
+}
+@media(max-width:1050px){
+    header{
+        padding-left: 2.8%;
+        padding-right: 2.52%;
+    }
+}
+@media(max-width:990px){
+    header{
+        padding-left: 0.8%;
+        padding-right: 0.52%;
     }
 }
