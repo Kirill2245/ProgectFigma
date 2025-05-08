@@ -81,7 +81,6 @@ header{
     margin-left: 25.36px;
     margin-top: 0.17px;
 }
-
 .switch {
     position: relative;
     display: inline-block;
@@ -152,4 +151,33 @@ input:checked + .slider:before {
 .btnContact:hover{
     background-color: #EF5B59;
     color: #FFFFFF;
+}
+@media(max-width:1600px){
+    header{
+        padding-left: 21.375%;
+        padding-right: 23.47%;
+    }
+}
+@media(max-width:1440px){
+    header{
+        padding-left: 16.8%;
+        padding-right: 16.52%;
+    }
+    .btnMenu{
+        width: 310px;
+        height: 24px;
+        margin-left: 275px;
+    }
+    .switch {
+        margin-left: 128px;
+    }
+    .btnMore{
+        display: none;
+    }
+    .btnMenu img{
+        display: none;
+    }
+    .btnContact{
+        margin-left: 54px;
+    }
 }
