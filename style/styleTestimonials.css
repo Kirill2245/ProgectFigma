@@ -161,6 +161,15 @@
         margin-left: 100px;
     }
 }
+@media (max-width:800px){
+    .testimonials h2{
+        margin-left: 41.1%;
+        margin-right: 27.79%;
+    }
+    .testimoialsP{
+        margin-left: 29.375%;
+    }
+}
 @media(max-width:768px){
     .testimonials{
         margin-left: 25.39%;
