@@ -757,6 +757,27 @@
         margin-right: 0px;
         width: 50%;
     }
+    .group1 div{
+        display: flex;
+        flex-direction: column;
+        margin-left: 98px;
+        height: 100%;
+        width: 43.4%;
+    }
+    .group1 img{
+        width: 57.6%;
+        height: 100%;
+    }
+    .group3 div{
+        display: flex;
+        flex-direction: column;
+        width: 50.94%;
+        height: 100%;
+    }
+    .group3 img{
+        width: 49.06%;
+        height: 100%;
+    }
     @media (max-width:770px){
         .group2 h3{
             width: 200px;
@@ -765,6 +786,11 @@
         .group3 h3{
             width: 200px;
             margin-top: 0px;
+        }
+    }
+    @media (max-width:730px){
+        .group1 div{
+            margin-left: 0px;
         }
     }
 }
