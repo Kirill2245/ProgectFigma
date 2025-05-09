@@ -14,6 +14,14 @@ header{
     margin: 0;
     width: 100%;
 }
+.rollMenu{
+    display: none;
+    width: 40px;
+    height: 16px;
+    margin-top: 19.68px;
+    margin-bottom: 19.68px;
+    margin-left: 34px; 
+}
 .headerMenu{
     display: flex;
     width: 960px;
@@ -228,5 +236,49 @@ input:checked + .slider:before {
     header{
         padding-left: 0.8%;
         padding-right: 0.52%;
+    }
+}
+@media(max-width:850px){
+    header{
+        padding-left: 1.8%;
+        padding-right: 0%;
+    }
+    .btnMenu{
+        margin-left: 190.81px;
+    }
+    .switch {
+        margin-left: 22.92px;
+    }
+    .btnContact{
+        margin-left: 9px;
+    }
+}
+@media(max-width:768px){
+    .rollMenu{
+        display: block;
+    }
+    .btnMenu{
+        display: none;
+    }
+    .btnContact{
+        display: none;
+    }
+    header{
+        padding-left: 3.25%;
+        padding-right: 3.125%;
+    }
+    .headerMenu{
+        margin-top: 10.32px;
+        width: 93.63%;
+        height: 55.36px;
+    }
+    .logo{
+        width: 37.45px;
+        height: 40.42px;
+    }
+    .switch{
+        margin-left: 76.43%;
+        margin-top: 15.68px;
+        margin-bottom: 15.68px;
     }
 }

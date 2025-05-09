@@ -281,12 +281,52 @@
     }
 }
 /*для 768px*/
-/* @media(max-width:1080px){ 
+@media(max-width:850px){ 
     .hero{
-        padding-left: 12.5%;
+        margin-left: 1.8%;
+        margin-right: 1.52%;
+        padding-left: 0.5%;
+        padding-right: 12.7%;
+        padding-top: 7.94%;
+        padding-bottom: 23.55%;
+    }
+    .boxHero{
+        width: 758px;
+        height: 300.92px;
+    }
+    .heroImg{
+        width: 379.23px;
+        height: 274px;
+    }
+    .textBox h1{
+        width: 310.39px;
+        height: 73.82px;
+        font-size: 32px;
+        line-height: 36px;
+        margin-top: 0;
+    }
+    .textBox{
+        margin-left: 58.37px;
+    }
+    .textBox p{
+        width: 310.39px;
+        height: 162.92px;
+        margin-top: 2.18px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .btnGet{
+        margin-top: 0px;
+    }
+}
+@media(max-width:768px){ 
+    .hero{
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 2.7%;
         padding-right: 12.7%;
         padding-top: 34px;
-        padding-bottom: 155px;
+        padding-bottom: 115px;
     }
     .boxHero{
         width: 718px;
@@ -316,4 +356,4 @@
     .btnGet{
         margin-top: 0px;
     }
-} */
+}

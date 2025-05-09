@@ -272,3 +272,18 @@
         margin-bottom: 16px;
     }
 }
+@media (max-width:768px){
+    .rectangle1{
+        padding-left: 30.72%;
+        padding-right: 22.39%;
+        height: 1518px;
+    }
+    .cardOne{
+        margin-right: 0px;
+        margin-bottom: 58px;
+    }
+    .cardTwo{
+        margin-right: 0;
+        margin-bottom: 58px;
+    }
+}

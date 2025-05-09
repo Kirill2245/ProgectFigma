@@ -58,6 +58,7 @@
     margin-top: 49px;
 }
 .group1 p{
+    width: 309px;
     height: 112.86px;
     margin-bottom: 68px;
 }
@@ -77,6 +78,8 @@
     margin-right: 1.27px;
 }
 .group2 p {
+    width: 309px;
+    height: 112.86px;
     margin-bottom: 125px;
     margin-left: 1.27px;
 }
@@ -101,6 +104,10 @@
 .group3 h3{
     margin-top: 46.5px;
     margin-left: 1.27px;
+}
+.group3 p{
+    height: 112.86px;
+    width: 309px;
 }
 /* companies */
 .companies{
@@ -250,6 +257,7 @@
     }
     .companies{
         padding-left: 0%;
+        padding-right: 0%;
     }
     .imgGroup{
         margin-left: 0.5%;
@@ -289,5 +297,188 @@
         margin-top: 3.71px;
         width: 74.04px;
         height: 74.04px;
+    }
+}
+@media(max-width:850px){
+    .features{
+        margin-left: 1.77%;
+        margin-right: 1.37;
+        width: 820.27px;
+        height: 1105px;
+        margin-bottom: 130px;
+    }
+    .features h2{
+        margin-bottom: 88px;
+    }
+    .projectSection{
+        width: 820.27px;
+        height: 966px;
+    }
+    .imgGroup img{
+        width: 100px;
+        margin-left: 60px;
+    }
+    .companies h2{
+        margin-right: 0;
+        margin-left: 12%;
+    }
+    .companies p{
+        margin-left: 14.5%;
+    }
+    .group1 div{
+        margin-left: 30px;
+    }
+    .group2 div{
+        width: 338px;
+        margin-right: 19px;
+    }
+    .group3 div{
+        margin-left: 59px;
+    }
+    .group1 p{
+        width: 250px;
+    }
+    .group2 p{
+        width: 280px;
+    }
+    .group3 p{
+        width: 280px;
+    }
+}
+@media (max-width:768px){
+    .features{
+        width: 720.27px;
+        height: 1105px;
+        margin-left: 24px;
+        margin-right: 23.73px;
+        margin-bottom: 132px;
+    }
+    .features h2{
+        width: 480px;
+        height: 36px;
+        font-family: Roboto;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: 0%;
+        margin-top: 0;
+        margin-left: 137.27px;
+        margin-right: 103px;
+        margin-bottom: 103px;
+    }
+    .projectSection{
+        width: 720px;
+        height: 966px;
+    }
+    .group1 {
+        width: 717.27px;
+        height: 167px;
+        margin-bottom: 136px;
+        margin-top: 0;
+    }
+    .group1 div{
+        margin-left: 0;
+    }
+    .group1 img{
+        width: 348px;
+        height: 167px;
+        margin-right: 59px;
+    }
+    .group1 h3{
+        width: 148px;
+        height: 32px;
+        font-family: Roboto;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        letter-spacing: 0%;
+        margin-top: 0;
+        margin-bottom: 3px;
+    }
+    .group1 p{
+        width: 309px;
+        height: 112.86px;
+        margin-left: 1px;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        margin-bottom: 16.14px;
+    }
+    .group2{
+        width: 718px;
+        height: 257px;
+        margin-bottom: 154px;
+        margin-top: 0;
+    }
+    .group2 div{
+        margin-right: 0;
+    }
+    .group2 img{
+        width: 334px;
+        height: 257px;
+        margin-left: 73.73px;
+    }
+    .group2 h3{
+        width: 150px;
+        height: 32px;
+        margin-top: 58px;
+        margin-bottom: 3px;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .group2 p{
+        margin-top: 0;
+        margin-bottom: 51.14px;
+        width: 309px;
+        height: 112.86px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .group3{
+        width: 720.27px;
+        height: 252px;
+    }
+    .group3 div{
+        margin-left: 0;
+    }
+    .group3 img{
+        width: 349px;
+        height: 252px;
+        margin-right: 61px;
+    }
+    .group3 h3{
+        margin-top: 30px;
+        margin-bottom: 3px;
+        width: 170px;
+        height: 32px;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .group3 p{
+        margin-top: 0;
+        margin-bottom: 74.14px;
+        margin-left: 1.27px;
+        width: 309px;
+        height: 112.86px;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+    }
+    .imgGroup img{
+        margin-left: 57.75px;
+    }
+    .companies h2{
+        margin-right: 0;
+        margin-left: 10%;
+    }
+    .companies p{
+        margin-left: 12.5%;
     }
 }
