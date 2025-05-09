@@ -282,3 +282,37 @@ input:checked + .slider:before {
         margin-bottom: 15.68px;
     }
 }
+@media(max-width:730px){
+    .switch{
+        margin-left: 70.43%;
+        margin-top: 15.68px;
+        margin-bottom: 15.68px;
+    }
+    .rollMenu{
+        margin-left: 18px; 
+    }
+}
+@media(max-width:525px){
+    .switch{
+        margin-left: 65.43%;
+    }
+}
+@media (max-width:490px){
+    .switch{
+        margin-left: 60.43%;
+    }
+}
+@media (max-width:450px){
+    .switch{
+        margin-left: 50.43%;
+    }
+}
+@media (max-width:375px){
+    header{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .headerMenu{
+        margin-left: 25px;
+    }
+}

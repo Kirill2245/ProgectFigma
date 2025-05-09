@@ -482,3 +482,265 @@
         margin-left: 12.5%;
     }
 }
+@media (max-width:730px){
+    .features{
+        width: 349px;
+        height: auto;
+        margin-left: 25%;
+    }
+    .features h2{
+        margin: 0;
+        width: 329px;
+        height: 64px;
+        text-align: center;
+    }
+    .projectSection{
+        width: 349px;
+        height: auto;
+        margin-top: 50px;
+    }
+    .group1 ,.group3{
+        height: auto;
+        flex-direction: column;
+    }
+    .group2 {
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .group1 img{
+        margin-right: 0;
+    }
+    .group2 img{
+        margin-left: 0;
+    }
+    .group3 img{
+        margin-right: 0;
+    }
+    .companies{
+        padding-left: 23.28%;
+        padding-right: 25.25%;
+    }
+    .companies h2{
+        margin-right: 0;
+        margin-left: 2%;
+    }
+    .companies p{
+        margin-left: 4.5%;
+    }
+    .imgGroup{
+        margin-left: 0.3%;
+        width: 335px;
+        height: 35.53px;
+    }
+    .imgGroup img{
+        margin-left: 26.39px;
+    }
+    #adobe{
+        margin-top: 5.08px;
+        margin-bottom: 5.08px;
+        width:33.84px;
+        height: 25.378787994384766px;
+    }
+    #amazon{
+        width: 33.838382720947266px;
+        height: 25.378787994384766px;
+        margin-top: 5.08px;
+        margin-bottom: 5.08px;
+    }
+    #face{
+        width: 33.838382720947266px;
+        height: 25.378787994384766px;
+        margin-top: 5.08px;
+        margin-bottom: 5.08px;
+    }
+    #google{
+        width: 33.838382720947266px;
+        height: 11.97826099395752px;
+        margin-bottom: 12.38px;
+        margin-top: 11.17px;
+    }
+    #intel{
+        width: 33.838382720947266px;
+        height: 33.838382720947266px;
+        margin-bottom: 1.7px;
+        margin-top: 0;
+    }
+    #samsung{
+        margin-bottom: 0;
+        margin-top: 1.7px;
+        width: 33.838382720947266px;
+        height: 33.838382720947266px;
+    }
+}
+@media (max-width:525px){
+    .features{
+        margin-left: 19%;
+    }
+    .companies h2{
+        margin-right: 0;
+        margin-left: 0.5%;
+    }
+    .companies p{
+        margin-left: 2.5%;
+    }
+    .companies{
+        padding-left: 17.28%;
+        padding-right: 19.25%;
+    }
+}
+@media (max-width:490px){
+    .features{
+        margin-left: 13%;
+    }
+    .companies p{
+        margin-left: 0.5%;
+    }
+    .companies{
+        padding-left: 11.28%;
+        padding-right: 13.25%;
+    }
+}
+@media (max-width:450px){
+    .features{
+        margin-left: 3.5%;
+    }
+    .companies p{
+        margin-left: 2.5%;
+    }
+    .companies{
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+    }
+}
+@media (max-width:375px){
+    .features{
+        margin-bottom: 196px;
+        margin-left: 22px;
+        margin-right: 24px;
+        margin-bottom: 143px;
+        width: 329px;
+        height: 1127px;
+    }
+    .features h2{
+        width: 329px;
+        height: 64px;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+        margin-bottom: 36px;
+    }
+    .projectSection{
+        width: 298px;
+        height: 1027px;
+        margin-left: 19px;
+        margin-right: 12px;
+    }
+    .group1{
+        width: 298px;
+        height: 241px;
+        margin-bottom: 89px;
+    }
+    .group1 img{
+        width: 184.24px;
+        height: 72px;
+        margin-top: 0;
+        margin-bottom: 12px;
+        margin-left: 56.88px;
+        margin-right: 56.88px;
+    }   
+    .group1 h3{
+        width: 183px;
+        height: 32px;
+        margin-top: 0;
+        margin-bottom: 12px;
+        margin-left: 56.88px;
+        margin-right: 58.12px;
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .group1 p{
+        width: 298px;
+        height: 113px;
+        margin: 0;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .group2{
+        width: 298px;
+        height: 298px;
+        margin-bottom: 107px;
+    }
+    .group2 img{
+        width: 190.42323303222656px;
+        height: 118px;
+        margin-top: 0;
+        margin-left: 54.41px;
+        margin-right: 53.17px;
+        margin-bottom: 19px;
+    }
+    .group2 h3{
+        width: 185.4771728515625px;
+        height: 32px;
+        margin: 0 46.99px 16px 65.54px;
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .group2 p{
+        width: 298px;
+        height: 113px;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0;
+    }
+    .group3{
+        width: 298px;
+        height: 292px;
+        margin:0;
+    }
+    .group3 img{
+        width: 190.42323303222656px;
+        height: 111px;
+        margin-bottom: 20px;
+        margin-top: 0;
+        margin-left: 53.17px;
+        margin-right: 54.41px;
+    }
+    .group3 h3{
+        width: 210.2074737548828px;
+        height: 32px;  
+        margin-top: 0;
+        margin-left: 48.22px;
+        margin-right: 39.57px;
+        margin-bottom: 16px;
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .group3 p{
+        width: 298px;
+        height: 113px;
+        margin:0;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .companies p{
+        width: 244px;
+        height: 16px;
+        margin-left: 2.5%;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+
+    }
+    .companies{
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+    }
+    .companies h2{
+        width: 318px;
+        height: 32px;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+        margin-left: 1%;
+    }
+}

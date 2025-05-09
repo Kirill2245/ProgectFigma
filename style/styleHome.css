@@ -280,7 +280,6 @@
         padding-left: 22.02%;
     }
 }
-/*для 768px*/
 @media(max-width:850px){ 
     .hero{
         margin-left: 1.8%;
@@ -356,4 +355,137 @@
     .btnGet{
         margin-top: 0px;
     }
+}
+@media(max-width:730px){ 
+    .hero{
+        padding-left: 25.02%;
+        padding-right: 25.05%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: auto;
+    }
+    .boxHero{
+        flex-direction: column;
+        height: auto;
+        width: 349px;
+    }
+    .textBox{
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .btnGet{
+        margin-bottom: 0;
+    }
+}
+@media(max-width:525px){ 
+    .hero{
+        padding-left: 19.02%;
+        padding-right: 19.05%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: auto;
+    }
+    .subscrible{
+        padding-left: 19.02%;
+    }
+}
+@media (max-width:490px){
+    .hero{
+        padding-left: 13.02%;
+        padding-right: 13.05%;
+    }
+    .subscrible{
+        padding-left: 13.02%;
+    }
+}
+@media (max-width:450px){
+    .hero{
+        padding-left: 1.5%;
+        padding-right: 0.5%;
+    }
+    .subscrible{
+        padding-left: 0.5%;
+    }
+    .textGroup_1{
+        font-size: 15px;
+    }
+    .boxInputSub button{
+        width: 23.7%;
+    }
+    .boxInputSub input {
+        margin-right: 12px;
+    }
+}
+@media (max-width:375px){
+    .hero{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .heroImg{
+        width: 155px;
+        height: 100px;
+        margin-left: 85px;
+    }
+    .boxHero{
+        width: 325px;
+        margin-left:25px;
+    }
+    .btnGet{
+        width: 155px;
+    }
+    .boxInputSub button{
+        width: 136px;
+        height: 32px;
+    }
+    .boxInputSub input {
+        width: 182px;
+        height: 32.67px;
+        margin-right: 6.29px;
+    }
+    .subscrible{
+        padding: 0;
+    }
+    .group{
+        width: 327px;
+        height: 193.35012817382812px;
+        margin-top: 103.65px;
+        margin-bottom: 103px;
+        margin-left: 25px;
+    }
+    .group img{
+        width: 17.94865608215332px;
+        height: 16.895973205566406px;
+        margin-top: 0;
+        margin-left: 157px;
+    }
+    .group h2{
+        margin-top: 9.45px;
+        margin-left: 20px;
+        margin-left: 15px;
+        margin-bottom: 0;
+        width: 292px;
+        height: 30px;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .textGroup_1{
+        width: 302.63092041015625px;
+        height: 58.80568313598633px;
+        margin-top: 9.68px;
+        margin-right: 10.37px;
+        margin-left: 14px;
+        margin-bottom: 1.8px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+    }
+    .textGroup_2{
+        margin:21.04px 0 0 0;
+        width: 327px;
+        height: 13px;
+    }   
 }

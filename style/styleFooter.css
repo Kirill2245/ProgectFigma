@@ -286,5 +286,25 @@ footer{
         background-position: center;
         background-repeat: no-repeat;
     }
-
+}
+@media (max-width:525px){
+    footer{
+        padding-left: 24.2%;
+        padding-right: 22.51%;
+    }
+}
+@media (max-width:490px){
+    footer{
+        padding-left: 18.2%;
+        padding-right: 16.51%;
+    }
+}
+@media (max-width:450px){
+    footer{
+        padding-left: 8.5%;
+        padding-right: 8.5%;
+    }
+}
+@media (max-width:375px){
+    
 }

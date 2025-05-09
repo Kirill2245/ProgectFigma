@@ -287,3 +287,55 @@
         margin-bottom: 58px;
     }
 }
+@media (max-width:525px){
+    .rectangle1{
+        padding-left: 24.72%;
+        padding-right: 16.39%;
+        height: 1518px;
+    }
+}
+@media (max-width:490px){
+    .rectangle1{
+        padding-left: 18.72%;
+        padding-right: 10.39%;
+    }
+}
+@media (max-width:450px){
+    .rectangle1{
+        padding-left: 8.5%;
+        padding-right: 8.5%;
+    }
+}
+@media (max-width:375px){
+    .rectangle1{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .boxTextRectangle{
+        width: 316px;
+        height: 120px;
+        margin-left: 7.4667%;
+        margin-right: 8.2667%;
+        margin-top: 47px;
+        margin-bottom: 34px;
+    }
+    .boxTextRectangle h2{
+        width: 316px;
+        height: 72px;
+        margin: 0;
+        text-align: center;
+    }
+    .boxTextRectangle p{
+        width: 239.59402465820312px;
+        height: 48px;
+        margin-left: 38.67px;
+        margin-right: 37.73px;
+        margin-bottom: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+    .boxCard{
+        margin-left: 8.8%;
+        margin-right: 8.8%;
+    }
+}

@@ -207,5 +207,78 @@
     .groupTestimonials:last-child{
         margin-bottom: 0px;
     }
-
+}
+@media (max-width:525px){
+    .testimonials{
+        margin-left: 15.39%;
+        margin-right: 15.39%;
+    }
+}
+@media (max-width:490px){
+    .testimonials{
+        margin-left: 9.39%;
+        margin-right: 9.39%;
+    }
+}
+@media (max-width:450px){
+    .testimonials{
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+}
+@media (max-width:375px){
+    .testimonials{
+        width: 291.77056884765625px;
+        height: 1035px;
+        margin-left: 10.224%;
+        margin-right: 11.9706%;
+        margin-top: 110px;
+        margin-bottom: 0;
+    }
+    .testimonials h2{
+        width: 189px;
+        height: 28px;
+        margin-top: 0;
+        margin-left: 57.66px;
+        margin-right: 45.11px;
+        margin-bottom: 25px;
+    }
+    .testimoialsP{
+        width: 286px;
+        height: 19px;
+        margin-top: 0;
+        margin-left: 2.66px;
+        margin-right: 3.11px;
+        margin-bottom: 55px;
+    }
+    .groupTestimonials{
+        width: 288.965087890625px;
+        height: 266px;
+        margin-left: 2.81px;
+        margin-bottom: 55px;
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .restangle{
+        width: 100%;
+        height: 139.61813354492188px;
+        padding: 16px 6.13px 11.62px 11.03px;
+    }
+    .restangle p{
+        width: 272.7391052246094px;
+        height: 112px;
+    }
+    .profile img{
+        width: 93.52px;
+    }
+    .profile h4{
+        margin-left: 7.34px;
+        width: 151px;
+        height: 24px;
+    }
+    .profile p{
+        margin-left: 10px;
+        width: 178px;
+        height: 24px;
+    }
 }
