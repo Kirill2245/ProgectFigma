@@ -1,3 +1,10 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .features{
     width: 962px;
     height: 1157px;
@@ -67,6 +74,7 @@
     display: flex;
     width: 100%;
     margin-bottom: 41.5px;
+    box-sizing: border-box;
 }
 .group2 div{
     display: flex;
@@ -742,5 +750,21 @@
         line-height: 32px;
         text-align: center;
         margin-left: 1%;
+    }
+}
+@-moz-document url-prefix() {
+    .group2 div{
+        margin-right: 0px;
+        width: 50%;
+    }
+    @media (max-width:770px){
+        .group2 h3{
+            width: 200px;
+            margin-top: 0px;
+        }
+        .group3 h3{
+            width: 200px;
+            margin-top: 0px;
+        }
     }
 }
