@@ -12,10 +12,11 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 80px;
+    font-size: 1rem;
 }
 .features h2{
     font-weight: 700;
-    font-size: 32px;
+    font-size: 2em;
     line-height: 36px;
     letter-spacing: 0%;
     color: #343A40;
@@ -30,7 +31,7 @@
 }
 .projectSection h3{
     font-weight: 700;
-    font-size: 28px;
+    font-size: 1.75em;
     line-height: 32px;
     letter-spacing: 0%;
     color: #343A40;
@@ -39,7 +40,6 @@
 .projectSection p{
     color: #757575;
     font-weight: 400;
-    font-size: 16px;
     line-height: 24px;
     letter-spacing: 0%;
     margin-top: 0;
@@ -122,7 +122,6 @@
     width: 100%;
     max-width: 100%;
     min-width: 1924px;
-    /* overflow: hidden; */
     height: 269px;
     background-color: #20014D;
     box-sizing: border-box;
@@ -131,11 +130,12 @@
     padding-left: 23.28%;
     padding-right: 25.25%;
     color: #F4F7FE;
+    font-size: 1rem;
 }
 .companies h2{
     width: 364px;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 2em;
     line-height: 36px;
     letter-spacing: 0%;
     margin-top: 32px;
@@ -147,7 +147,7 @@
 .companies p{
     width: 244px;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.75em;
     line-height: 16px;
     letter-spacing: 0%;
     margin: 0;
@@ -364,11 +364,6 @@
     .features h2{
         width: 480px;
         height: 36px;
-        font-family: Roboto;
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 36px;
-        letter-spacing: 0%;
         margin-top: 0;
         margin-left: 137.27px;
         margin-right: 103px;
@@ -395,11 +390,6 @@
     .group1 h3{
         width: 148px;
         height: 32px;
-        font-family: Roboto;
-        font-weight: 700;
-        font-size: 28px;
-        line-height: 32px;
-        letter-spacing: 0%;
         margin-top: 0;
         margin-bottom: 3px;
     }
@@ -407,11 +397,6 @@
         width: 309px;
         height: 112.86px;
         margin-left: 1px;
-        font-family: Roboto;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0%;
         margin-bottom: 16.14px;
     }
     .group2{
@@ -433,18 +418,12 @@
         height: 32px;
         margin-top: 58px;
         margin-bottom: 3px;
-        font-weight: 700;
-        font-size: 28px;
-        line-height: 32px;
     }
     .group2 p{
         margin-top: 0;
         margin-bottom: 51.14px;
         width: 309px;
         height: 112.86px;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
     }
     .group3{
         width: 720.27px;
@@ -463,9 +442,6 @@
         margin-bottom: 3px;
         width: 170px;
         height: 32px;
-        font-weight: 700;
-        font-size: 28px;
-        line-height: 32px;
     }
     .group3 p{
         margin-top: 0;
@@ -473,11 +449,6 @@
         margin-left: 1.27px;
         width: 309px;
         height: 112.86px;
-        font-family: Roboto;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0%;
     }
     .imgGroup img{
         margin-left: 57.75px;
@@ -632,7 +603,7 @@
     .features h2{
         width: 329px;
         height: 64px;
-        font-size: 28px;
+        font-size: 1.75em;
         line-height: 32px;
         text-align: center;
         margin-bottom: 36px;
@@ -663,15 +634,11 @@
         margin-bottom: 12px;
         margin-left: 56.88px;
         margin-right: 58.12px;
-        font-size: 28px;
-        line-height: 32px;
     }
     .group1 p{
         width: 298px;
         height: 113px;
         margin: 0;
-        font-size: 16px;
-        line-height: 24px;
     }
     .group2{
         width: 298px;
@@ -690,14 +657,10 @@
         width: 185.4771728515625px;
         height: 32px;
         margin: 0 46.99px 16px 65.54px;
-        font-size: 28px;
-        line-height: 32px;
     }
     .group2 p{
         width: 298px;
         height: 113px;
-        font-size: 16px;
-        line-height: 24px;
         margin: 0;
     }
     .group3{
@@ -720,22 +683,16 @@
         margin-left: 48.22px;
         margin-right: 39.57px;
         margin-bottom: 16px;
-        font-size: 28px;
-        line-height: 32px;
     }
     .group3 p{
         width: 298px;
         height: 113px;
         margin:0;
-        font-size: 16px;
-        line-height: 24px;
     }
     .companies p{
         width: 244px;
         height: 16px;
         margin-left: 2.5%;
-        font-size: 12px;
-        line-height: 16px;
         text-align: center;
 
     }
@@ -746,8 +703,6 @@
     .companies h2{
         width: 318px;
         height: 32px;
-        font-size: 28px;
-        line-height: 32px;
         text-align: center;
         margin-left: 1%;
     }

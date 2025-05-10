@@ -6,10 +6,11 @@
     flex-direction: column;
     margin-left:25.05%;
     margin-right:25.05%;
+    font-size: 1rem;
 }
 .testimonials h2{
     font-weight: 700;
-    font-size: 32px;
+    font-size: 2em;
     line-height: 36px;
     letter-spacing: 0%;
     color:#343A40;
@@ -22,7 +23,7 @@
 }
 .testimoialsP{
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25em;
     line-height: 24px;
     letter-spacing: 0%;
     text-align: center;
@@ -58,7 +59,6 @@
     margin: 0;
     font-weight: 400;
     font-style: italic;
-    font-size: 16px;
     line-height: 24px;
     letter-spacing: 0%;
 }
@@ -78,7 +78,7 @@
 }
 .profile h4{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25em;
     line-height: 24px;
     letter-spacing: 0%;
     width: 134.72px;
@@ -90,7 +90,6 @@
 .profile p{
     width: 179.99px;
     font-weight: 400;
-    font-size: 16px;
     line-height: 24px;
     letter-spacing: 0%;
     text-align: center;
@@ -98,9 +97,7 @@
     margin-left: 13px;
     color: #757575;
 }
-@media(max-width:1600px){
 
-}
 @media(max-width:1440px){
     .testimonials{
         margin-left:16.46%;
@@ -134,21 +131,6 @@
         margin-right:2.875%;
     }
 }
-/* @media(max-width:990px){
-    .testimonials{
-        margin-left:25.39%;
-        margin-right:22.39%;
-        height:auto;
-    }
-    .testimonials h2{
-        margin-left: 13.41%;
-        margin-right: 14.58%;
-    }
-    .boxGroupTestimonials{
-        flex-direction: column;
-        height:100%;
-    }
-} */
 @media(max-width:990px){
     .testimonials{
         margin-left:0.39%;
@@ -185,20 +167,12 @@
         margin-left: 25.685%;
         margin-right: 27.79%;
         margin-bottom: 25.23px;
-        font-family: Roboto;
-        font-size: 32px;
-        line-height: 36px;
     }
     .testimoialsP{
         width: 401px;
         height: 18.51px;
         margin-top: 0;
         margin-bottom: 55.49px;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 24px;
-        letter-spacing: 0%;
-        text-align: center;
         margin-left: 0;
         margin-right: 0;
     }
