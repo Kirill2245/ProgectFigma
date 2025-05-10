@@ -57,8 +57,8 @@
     height: 100%;
 }
 .group1 img{
-    width: 57.6%;
-    height: 100%;
+    width: 553px;
+    height: 265px;
 }
 .group1 h3{
     margin-left: 1.27px;
@@ -92,8 +92,8 @@
     margin-left: 1.27px;
 }
 .group2 img{
-    width: 49.1%;
-    height: 100%;
+    width: 472px;
+    height: 364px;
 }
 .group3{
     display: flex;
@@ -106,8 +106,8 @@
     margin-left: 179px;
 }
 .group3 img{
-    width: 49.06%;
-    height: 100%;
+    width: 472px;
+    height: 341px;
 }
 .group3 h3{
     margin-top: 46.5px;
@@ -390,7 +390,7 @@
     .group1 img{
         width: 348px;
         height: 167px;
-        margin-right: 59px;
+        margin-right: 0px;
     }
     .group1 h3{
         width: 148px;
@@ -764,19 +764,39 @@
         height: 100%;
         width: 43.4%;
     }
-    .group1 img{
-        width: 57.6%;
-        height: 100%;
-    }
     .group3 article{
         display: flex;
         flex-direction: column;
         width: 50.94%;
         height: 100%;
     }
+    .group1 img{
+        width: 553px;
+        height: 265px;
+        margin-right: 0px;
+    }
+    .group2 img{
+        width: 472px;
+        height: 364px;
+    }
     .group3 img{
-        width: 49.06%;
-        height: 100%;
+        width: 472px;
+        height: 341px;
+    }
+    @media (max-width:768px){
+        .group1 img{
+            width: 348px;
+            height: 167px;
+            margin-right: 59px;
+        }
+        .group2 img{
+            width: 334px;
+            height: 257px;
+        }
+        .group3 img{
+            width: 349px;
+            height: 252px;
+        }
     }
     @media (max-width:770px){
         .group2 h3{
@@ -791,6 +811,20 @@
     @media (max-width:730px){
         .group1 article{
             margin-left: 0px;
+        }
+    }
+    @media (max-width:375px){
+        .group1 img{
+            width: 184.24px;
+            height: 72px;
+        }   
+        .group2 img{
+            width: 190.42323303222656px;
+            height: 118px;
+        }
+        .group3 img{
+            width: 190.42323303222656px;
+            height: 111px;
         }
     }
 }
