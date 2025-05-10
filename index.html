@@ -15,23 +15,23 @@
         <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
         <link href = "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel = "stylesheet">
     </head>
-    <body>
+    <body id = "body">
         <header>
             <div class="headerMenu">
                 <img src="img/keiko-logo1.svg" alt = "" class="logo">
-                <nav class="btnMenu">
+                <nav class="btnMenu" id = "btnMenu">
                     <button class="btnHome">Home</button>
                     <button class="btnFeatures">Features</button>
                     <button class="btnTestimonial">Testimonial</button>
                     <button class="btnTeam">Team</button>
                     <button class="btnMore">More</button>
-                    <img src = "img/polygon.svg" alt = "" >
+                    <img src = "img/polygon.svg" alt = "" id = "poligon">
                 </nav>
                 <label class="switch">
                     <input type="checkbox" id="toggle">
                     <span class="slider"></span>
                 </label>
-                <button class="btnContact">Contact</button>
+                <button class="btnContact" id = "btnContact">Contact</button>
                 <img src = "img/Hamburger.svg" alt = "" class="rollMenu">
             </div>
         </header>
@@ -42,7 +42,7 @@
                         <img src = "img/hero.png" alt = "hero" class="heroImg">
                     </picture>
                     <article class="textBox">
-                        <h1>THE BEST TECH STARTUP</h1>
+                        <h1 id = "homeHeader">THE BEST TECH STARTUP</h1>
                         <p>Even the all-powerful Pointing has no control
                             about the bling texts it is an almost
                             unorthographic life One day however a small 
@@ -53,24 +53,24 @@
                     </article>
                 </div>
             </div>
-            <section class="subscrible">
-                <div class="group">
+            <section class="subscrible" id = "subscribe">
+                <div class="group" id = "group">
                     <img src = "img/Group9.svg" alt = "">
-                    <h2>Never miss an update</h2>
-                    <p class="textGroup_1">Far far away, behind the word mountains, far from the countries 
+                    <h2 id = "subscribeHeader">Never miss an update</h2>
+                    <p class="textGroup_1" id = "textGroup_1">Far far away, behind the word mountains, far from the countries 
                         Vokalia and Consonantia, there live the blind texts.</p>
                     <div class="boxInputSub">
                         <input placeholder="Type your email" aria-required="true">
-                        <button>Subscribe</button>
+                        <button id = "btnSubscribe">Subscribe</button>
                     </div>
                     <aside>
-                        <p class="textGroup_2">“Your email address is safe with us. We never share your 
+                        <p class="textGroup_2" id = "textGroup_2">“Your email address is safe with us. We never share your 
                             email address.”</p>
                     </aside>
                 </div>
             </section>
-            <section class="features">
-                <h2>OUR CLIENTS LOVE US BECAUSE</h2>
+            <section class="features" id = "features">
+                <h2 id = "featureHeader2" >OUR CLIENTS LOVE US BECAUSE</h2>
                 <div class="projectSection">
                     <div class="group1">
                         <picture>
@@ -122,8 +122,8 @@
                 </figure>
             </section>
             <section class="testimonials">
-                <h2>Testimonials</h2>
-                <p class="testimoialsP">Don’t take our word for it, see what our customers said.</p>
+                <h2 id = "testimonialsHeader">Testimonials</h2>
+                <p class="testimoialsP" id = "testimoialsP">Don’t take our word for it, see what our customers said.</p>
                 <div class="boxGroupTestimonials">
                     <div class="groupTestimonials">
                         <div class="restangle">
@@ -169,14 +169,14 @@
                     </div>
                 </div>
             </section>
-            <section class="rectangle1">
+            <section class="rectangle1" id = "rectangle1">
                 <div class="rectangleBox">
                     <div class="boxTextRectangle">
-                        <h2>How Much Does it Cost</h2>
-                        <p>Honest pricing, no surprises.</p>
+                        <h2 id = "rectangleHeader">How Much Does it Cost</h2>
+                        <p id = "rectangleText">Honest pricing, no surprises.</p>
                     </div>
                     <section class="boxCard">
-                        <div class="cardOne" id = "card">
+                        <div id ="cardOne" class = "card">
                             <h3>PERSONAL</h3>
                             <div>
                                 <p class="dolar">$</p>
@@ -190,7 +190,7 @@
                             </ul>
                             <button>Sign Up</button>
                         </div>
-                        <div class="cardTwo">
+                        <div id ="cardTwo" class = "card">
                             <h3>AGENCY</h3>
                             <div>
                                 <p class="dolar">$</p>
@@ -204,7 +204,7 @@
                             </ul>
                             <button>Sign Up</button>
                         </div>
-                        <div class="cardThree">
+                        <div id = "cardThree" class = "card">
                             <h3>ENTERPRISE</h3>
                             <div>
                                 <p class="dolar">$</p>
@@ -224,7 +224,7 @@
         </main>
         <footer>
             <section class="footerBox">
-                <div class="mainBoxText">
+                <div class="mainBoxText" id = "mainBoxText">
                     <article class="footerGroup1">
                         <h5>Group 1</h5>
                         <div>
@@ -253,7 +253,7 @@
                     </article>
                     <div class="followUs">
                         <h5>Follow Us</h5>
-                        <img src = "img/image1.jpg" alt = "">
+                        <img src = "img/image1.jpg" alt = "" id = "imgFooter">
                     </div>
                 </div>
                 <p></p>
@@ -262,5 +262,6 @@
         <script src="script/scriptFeatures.js"></script>
         <script src="script/scriptHome.js"></script>
         <script src="script/scriptTestimonials.js"></script>
+        <script src="script/srciptMain.js"></script>
     </body>
 </html>

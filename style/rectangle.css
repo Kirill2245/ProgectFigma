@@ -31,6 +31,7 @@
     letter-spacing: 0;
     margin-top: 0;
     margin-bottom: 16px;
+    text-align: center;
 }
 .boxTextRectangle p{
     width: 254px;
@@ -109,7 +110,7 @@
     line-height: 24px;
     letter-spacing: 0%;
 }
-#card{
+.card{
     width: 309px;
     height: 382px;
     display: flex;
@@ -132,11 +133,11 @@
 .custom-list li {
     margin-bottom: 16px; 
 }
-.cardOne{
+#cardOne{
     background-color: #F1C40F;
     margin-right: 16px;
 }
-    .cardOne h3{
+    #cardOne h3{
         width: 143px;
         height: 32px;
         margin-left: 83px;
@@ -144,7 +145,7 @@
         margin-top: 16px;
         margin-bottom: 0;
     }
-    .cardOne div{
+    #cardOne div{
         width: 136px;
         height: 63px;
         margin-left: 87px;
@@ -152,20 +153,20 @@
         margin-top: 32px;
         display: inline-flex;
     }
-    .cardOne li:last-child {
+    #cardOne li:last-child {
         margin-bottom: 26px; 
     }
-    .cardOne button{
+    #cardOne button{
         margin-left: 107px;
         margin-right: 118px;
         margin-bottom: 37px;
     }
     
-.cardTwo{
+#cardTwo{
     background-color: #EF5B59;
     margin-right: 16px;
 }
-    .cardTwo h3{
+    #cardTwo h3{
         width: 109px;
         height: 32px;
         margin-left: 100px;
@@ -173,7 +174,7 @@
         margin-top: 15px;
         margin-bottom: 0;
     }
-    .cardTwo div{
+    #cardTwo div{
         width: 136px;
         height: 63px;
         margin-left: 87px;
@@ -181,20 +182,20 @@
         margin-top: 33px;
         display: inline-flex;
     }
-    .cardTwo li:last-child {
+    #cardTwo li:last-child {
         margin-bottom: 29px; 
     }
-    .cardTwo button{
+    #cardTwo button{
         margin-left: 112px;
         margin-right: 113px;
         margin-bottom: 35px;
     }
 
-.cardThree{
+#cardThree{
     margin-right: 0;
     background-color: #20014D;
 }
-    .cardThree h3{
+    #cardThree h3{
         width: 164px;
         height: 32px;
         margin-left: 73px;
@@ -202,7 +203,7 @@
         margin-top: 15px;
         margin-bottom: 0;
     }
-    .cardThree div{
+    #cardThree div{
         width: 136px;
         height: 63px;
         margin-left: 87px;
@@ -210,10 +211,10 @@
         margin-top: 33px;
         display: inline-flex;
     }
-    .cardThree li:last-child {
+    #cardThree li:last-child {
         margin-bottom: 27px; 
     }
-    .cardThree button{
+    #cardThree button{
         margin-left: 112px;
         margin-right: 113px;
         margin-bottom: 37px;
@@ -259,11 +260,11 @@
     .boxTextRectangle{
         margin-left: 5px;
     }
-    .cardOne{
+    #cardOne{
         margin-right: 0px;
         margin-bottom: 16px;
     }
-    .cardTwo{
+    #cardTwo{
         margin-right: 0;
         margin-bottom: 16px;
     }
@@ -274,11 +275,11 @@
         padding-right: 22.39%;
         height: 1518px;
     }
-    .cardOne{
+    #cardOne{
         margin-right: 0px;
         margin-bottom: 58px;
     }
-    .cardTwo{
+    #cardTwo{
         margin-right: 0;
         margin-bottom: 58px;
     }
