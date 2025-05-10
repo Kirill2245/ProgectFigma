@@ -68,7 +68,7 @@
     display: flex;
     margin-top: 26.38px;
 }
-.profile div {
+.profile article {
     display: flex;
     flex-direction: column;
 }

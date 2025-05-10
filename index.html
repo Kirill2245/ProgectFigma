@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
         <title>Home</title>
         <link rel = "stylesheet" href = "style/styleHome.css"> 
         <link rel = "stylesheet" href = "style/styleFeatures.css"> 
@@ -18,15 +18,15 @@
     <body>
         <header>
             <div class="headerMenu">
-                <img src="img/keiko-logo 1.svg" alt = "" class="logo">
-                <div class="btnMenu">
+                <img src="img/keiko-logo1.svg" alt = "" class="logo">
+                <nav class="btnMenu">
                     <button class="btnHome">Home</button>
                     <button class="btnFeatures">Features</button>
                     <button class="btnTestimonial">Testimonial</button>
                     <button class="btnTeam">Team</button>
                     <button class="btnMore">More</button>
                     <img src = "img/polygon.svg" alt = "" >
-                </div>
+                </nav>
                 <label class="switch">
                     <input type="checkbox" id="toggle">
                     <span class="slider"></span>
@@ -39,7 +39,7 @@
             <div class="hero">
                 <div class="boxHero">
                     <img src = "img/hero.svg" alt = "hero" class="heroImg">
-                    <div class="textBox">
+                    <article class="textBox">
                         <h1>THE BEST TECH STARTUP</h1>
                         <p>Even the all-powerful Pointing has no control
                             about the bling texts it is an almost
@@ -48,70 +48,72 @@
                             lpsum decided to leave for the far World od 
                             Grammar.</p>
                         <button class="btnGet">Get Started</button>
-                    </div>
+                    </article>
                 </div>
             </div>
-            <div class="subscrible">
+            <section class="subscrible">
                 <div class="group">
-                    <img src = "img/Group 9.svg">
+                    <img src = "img/Group9.svg" alt = "">
                     <h2>Never miss an update</h2>
                     <p class="textGroup_1">Far far away, behind the word mountains, far from the countries 
                         Vokalia and Consonantia, there live the blind texts.</p>
                     <div class="boxInputSub">
-                        <input placeholder="Type your email">
+                        <input placeholder="Type your email" aria-required="true">
                         <button>Subscribe</button>
                     </div>
-                    <p class="textGroup_2">“Your email address is safe with us. We never share your 
-                        email address.”</p>
+                    <aside>
+                        <p class="textGroup_2">“Your email address is safe with us. We never share your 
+                            email address.”</p>
+                    </aside>
                 </div>
-            </div>
-            <div class="features">
+            </section>
+            <section class="features">
                 <h2>OUR CLIENTS LOVE US BECAUSE</h2>
                 <div class="projectSection">
                     <div class="group1">
-                        <img src = "img/design 1.svg" alt = "design">
-                        <div>
+                        <img src = "img/design1.svg" alt = "design">
+                        <article>
                             <h3>Project One</h3>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonatia, there live the blind texts. Separated 
                                 they live in Bookmarksgrove right at the coast of the Sematics, a large language ocean.
                             </p>
-                        </div>
+                        </article>
                     </div>
                     <div class="group2">
-                        <div>
+                        <article>
                             <h3>Project Two</h3>
                             <p>
                                 Far far away, behind the word mountains, far from the countries Vokalia and Consonatia, there live the 
                                 blind texts. Separated they live in Bookmarksgrove right at the coast of the Sematics, a large language ocean.
                             </p>
-                        </div>
-                        <img src = "img/development 1.svg" alt = "development">
+                        </article>
+                        <img src = "img/development1.svg" alt = "development">
                     </div>
                     <div class="group3">
-                        <img src = "img/creations 1.svg" alt = "creations">
-                        <div>
+                        <img src = "img/creations1.svg" alt = "creations">
+                        <article>
                             <h3>Project Three</h3>
                             <p>
                                 Far far away, behind the word mountains, far from the countries Vokalia and Consonatia, there live the blind texts. Separated they 
                                 live in Bookmarksgrove right at the coast of the Sematics, a large language ocean.
                             </p>
-                        </div>
+                        </article>
                     </div>
                 </div>
-            </div>
-            <div class="companies">
+            </section>
+            <section class="companies">
                 <h2>You are in good company</h2>
                 <p>We are funded with the world’s trusted brands</p>
-                <div class="imgGroup">
-                    <img src = "img/Adobe_logo.svg" alt = "" class="igm1" id = "adobe">
-                    <img src = "img/Amazon_logo.svg" alt = "" class="igm1" id = "amazon">
-                    <img src = "img/Facebook_Logo.svg" alt = "" class="igm1" id = "face">
-                    <img src = "img/Google_logo.svg" alt = "" class="img2" id = "google">
-                    <img src = "img/intel.svg" alt = "" class="img3" id = "intel">
-                    <img src = "img/samsung.svg" alt = "" class="igm3" id = samsung>
-                </div>
-            </div>
-            <div class="testimonials">
+                <figure class="imgGroup">
+                    <img src = "img/Adobe_logo.svg" alt = "Логотип Adobe" class="igm1" id = "adobe">
+                    <img src = "img/Amazon_logo.svg" alt = "Логотип Amazon" class="igm1" id = "amazon">
+                    <img src = "img/Facebook_Logo.svg" alt = "Логотип Facebook" class="igm1" id = "face">
+                    <img src = "img/Google_logo.svg" alt = "Логотип Google" class="img2" id = "google">
+                    <img src = "img/intel.svg" alt = "Логотип Intel" class="img3" id = "intel">
+                    <img src = "img/samsung.svg" alt = "Логотип Samsung" class="igm3" id = samsung>
+                </figure>
+            </section>
+            <section class="testimonials">
                 <h2>Testimonials</h2>
                 <p class="testimoialsP">Don’t take our word for it, see what our customers said.</p>
                 <div class="boxGroupTestimonials">
@@ -123,10 +125,10 @@
                         </div>
                         <div class="profile">
                             <img src = "img/team1.svg" alt = "team">
-                            <div>
+                            <article>
                                 <h4>Kristin Watson</h4>
                                 <p>Lead Developer at Netflix</p>
-                            </div>
+                            </article>
                         </div>
                     </div>
                     <div class="groupTestimonials">
@@ -137,10 +139,10 @@
                         </div>
                         <div class="profile">
                             <img src = "img/team1.svg" alt = "team">
-                            <div>
+                            <article>
                                 <h4>Kristin Watson</h4>
                                 <p>Lead Developer at Netflix</p>
-                            </div>
+                            </article>
                         </div>
                     </div>
                     <div class="groupTestimonials">
@@ -151,21 +153,21 @@
                         </div>
                         <div class="profile">
                             <img src = "img/team1.svg" alt = "team">
-                            <div>
+                            <article>
                                 <h4>Kristin Watson</h4>
                                 <p>Lead Developer at Netflix</p>
-                            </div>
+                            </article>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="rectangle1">
+            </section>
+            <section class="rectangle1">
                 <div class="rectangleBox">
                     <div class="boxTextRectangle">
                         <h2>How Much Does it Cost</h2>
                         <p>Honest pricing, no surprises.</p>
                     </div>
-                    <div class="boxCard">
+                    <section class="boxCard">
                         <div class="cardOne">
                             <h3>PERSONAL</h3>
                             <div>
@@ -173,7 +175,7 @@
                                 <p class="count">10</p>
                                 <p class="mo">/MO</p>
                             </div>
-                            <ul class="custom-list">
+                            <ul class="custom-list" role = "tablist">
                                 <li>5 recommendations</li>
                                 <li>2 perks</li>
                                 <li>Unlimited data</li>
@@ -187,7 +189,7 @@
                                 <p class="count">20</p>
                                 <p class="mo">/MO</p>
                             </div>
-                            <ul class="custom-list">
+                            <ul class="custom-list" role = "tablist">
                                 <li>10 recommendations</li>
                                 <li>5 perks</li>
                                 <li>Unlimited data</li>
@@ -201,21 +203,21 @@
                                 <p class="count">49</p>
                                 <p class="mo">/MO</p>
                             </div>
-                            <ul class="custom-list">
+                            <ul class="custom-list" role = "tablist">
                                 <li>All lower deals +</li>
                                 <li>Unlimited recommendations</li>
                                 <li>Unlimited perks</li>
                             </ul>
                             <button>Sign Up</button>
                         </div>
-                    </div>
+                    </section>
                 </div>
-            </div>
+            </section>
         </main>
         <footer>
-            <div class="footerBox">
+            <section class="footerBox">
                 <div class="mainBoxText">
-                    <div class="footerGroup1">
+                    <article class="footerGroup1">
                         <h5>Group 1</h5>
                         <div>
                             <p class="p1">Home</p>
@@ -224,8 +226,8 @@
                             <p class="p4">Team</p>
                             <p class="p5">Contact Us</p>
                         </div>
-                    </div>
-                    <div class="footerGroup2">
+                    </article>
+                    <article class="footerGroup2">
                         <h5>Group 2</h5>
                         <div>
                             <p class="p1">Privacy Policy</p>
@@ -233,21 +235,21 @@
                             <p class="p3">FAQ</p>
                             <p class="p4">Support</p>
                         </div>
-                    </div>
-                    <div class="aboutUs">
+                    </article>
+                    <article class="aboutUs">
                         <h5>About Us</h5>
                         <p>Keiko Corp. the greatest start up of all time Bruno the CEO of Keiko Corp has 
                             built the fastest growing 
                             tech start up in Silicon Valley.
                         </p>
-                    </div>
+                    </article>
                     <div class="followUs">
                         <h5>Follow Us</h5>
-                        <img src = "img/image 1.jpg" alt = "">
+                        <img src = "img/image1.jpg" alt = "">
                     </div>
                 </div>
                 <p></p>
-            </div>
+            </section>
         </footer>
         <script src="script/scriptFeatures.js"></script>
         <script src="script/scriptHome.js"></script>

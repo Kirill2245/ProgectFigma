@@ -50,7 +50,7 @@
     width: 100%;
     margin-bottom: 41.5px;
 }
-.group1 div{
+.group1 article{
     display: flex;
     flex-direction: column;
     margin-left: 98px;
@@ -76,7 +76,7 @@
     margin-bottom: 41.5px;
     box-sizing: border-box;
 }
-.group2 div{
+.group2 article{
     display: flex;
     flex-direction: column;
     margin-right: 179px;
@@ -100,7 +100,7 @@
     height: 341px;
     width: 100%;
 }
-.group3 div{
+.group3 article{
     display: flex;
     flex-direction: column;
     margin-left: 179px;
@@ -333,14 +333,14 @@
     .companies p{
         margin-left: 14.5%;
     }
-    .group1 div{
+    .group1 article{
         margin-left: 30px;
     }
-    .group2 div{
+    .group2 article{
         width: 338px;
         margin-right: 19px;
     }
-    .group3 div{
+    .group3 article{
         margin-left: 59px;
     }
     .group1 p{
@@ -384,7 +384,7 @@
         margin-bottom: 136px;
         margin-top: 0;
     }
-    .group1 div{
+    .group1 article{
         margin-left: 0;
     }
     .group1 img{
@@ -420,7 +420,7 @@
         margin-bottom: 154px;
         margin-top: 0;
     }
-    .group2 div{
+    .group2 article{
         margin-right: 0;
     }
     .group2 img{
@@ -450,7 +450,7 @@
         width: 720.27px;
         height: 252px;
     }
-    .group3 div{
+    .group3 article{
         margin-left: 0;
     }
     .group3 img{
@@ -753,11 +753,11 @@
     }
 }
 @-moz-document url-prefix() {
-    .group2 div{
+    .group2 article{
         margin-right: 0px;
         width: 50%;
     }
-    .group1 div{
+    .group1 article{
         display: flex;
         flex-direction: column;
         margin-left: 98px;
@@ -768,7 +768,7 @@
         width: 57.6%;
         height: 100%;
     }
-    .group3 div{
+    .group3 article{
         display: flex;
         flex-direction: column;
         width: 50.94%;
@@ -789,7 +789,7 @@
         }
     }
     @media (max-width:730px){
-        .group1 div{
+        .group1 article{
             margin-left: 0px;
         }
     }
