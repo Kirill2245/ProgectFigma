@@ -110,16 +110,20 @@
     line-height: 24px;
     letter-spacing: 0%;
 }
+.boxCard p{
+    color: #F4F7FE;
+}
 .card{
     width: 309px;
     height: 382px;
     display: flex;
     flex-direction: column;
+    margin-right: 16px;
 }
-.boxCard p{
-    color: #F4F7FE;
+.boxCard .card:last-child{
+    margin-right: 0;
 }
-.custom-list {
+.card ul{
     list-style-type: none;
     padding: 0; 
     margin: 0; 
@@ -130,95 +134,70 @@
     color: #F4F7FE;
     margin-top: 32px;
 }
-.custom-list li {
+.card li {
     margin-bottom: 16px; 
+}
+.card li:last-child {
+    margin-bottom: 0; 
+}
+.card div{
+    width: 136px;
+    height: 63px;
+    margin-left: 87px;
+    margin-right: 86px;
+    margin-top: 32px;
+    display: inline-flex;
 }
 #cardOne{
     background-color: #F1C40F;
-    margin-right: 16px;
 }
-    #cardOne h3{
-        width: 143px;
-        height: 32px;
-        margin-left: 83px;
-        margin-right: 83px;
-        margin-top: 16px;
-        margin-bottom: 0;
-    }
-    #cardOne div{
-        width: 136px;
-        height: 63px;
-        margin-left: 87px;
-        margin-right: 86px;
-        margin-top: 32px;
-        display: inline-flex;
-    }
-    #cardOne li:last-child {
-        margin-bottom: 26px; 
-    }
-    #cardOne button{
-        margin-left: 107px;
-        margin-right: 118px;
-        margin-bottom: 37px;
-    }
-    
+#cardOne h3{
+    width: 143px;
+    height: 32px;
+    margin-left: 83px;
+    margin-right: 83px;
+    margin-top: 16px;
+}
+
+#cardOne button{
+    margin-left: 107px;
+    margin-right: 118px;
+    margin-bottom: 37px;
+    margin-top: 26px; 
+}
 #cardTwo{
     background-color: #EF5B59;
-    margin-right: 16px;
 }
-    #cardTwo h3{
-        width: 109px;
-        height: 32px;
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-top: 15px;
-        margin-bottom: 0;
-    }
-    #cardTwo div{
-        width: 136px;
-        height: 63px;
-        margin-left: 87px;
-        margin-right: 86px;
-        margin-top: 33px;
-        display: inline-flex;
-    }
-    #cardTwo li:last-child {
-        margin-bottom: 29px; 
-    }
-    #cardTwo button{
-        margin-left: 112px;
-        margin-right: 113px;
-        margin-bottom: 35px;
-    }
+#cardTwo h3{
+    width: 109px;
+    height: 32px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+#cardTwo button{
+    margin-left: 112px;
+    margin-right: 113px;
+    margin-bottom: 35px;
+    margin-top: 29px; 
+}
 
 #cardThree{
-    margin-right: 0;
     background-color: #20014D;
 }
-    #cardThree h3{
-        width: 164px;
-        height: 32px;
-        margin-left: 73px;
-        margin-right: 73px;
-        margin-top: 15px;
-        margin-bottom: 0;
-    }
-    #cardThree div{
-        width: 136px;
-        height: 63px;
-        margin-left: 87px;
-        margin-right: 86px;
-        margin-top: 33px;
-        display: inline-flex;
-    }
-    #cardThree li:last-child {
-        margin-bottom: 27px; 
-    }
-    #cardThree button{
-        margin-left: 112px;
-        margin-right: 113px;
-        margin-bottom: 37px;
-    }
+#cardThree h3{
+    width: 164px;
+    height: 32px;
+    margin-left: 73px;
+    margin-right: 73px;
+    margin-top: 15px;
+}
+#cardThree button{
+    margin-left: 112px;
+    margin-right: 113px;
+    margin-bottom: 37px;
+    margin-top: 27px; 
+}
 
 @media(max-width:1440px){
     .rectangle1{
@@ -250,15 +229,19 @@
 }
 @media(max-width:990px){
     .rectangle1{
-        padding-left: 30.28%;
+        padding-left: 33.08%;
         height: auto;
+    }
+    .rectangleBox{
+        width: 335px;
     }
     .boxCard{
         flex-direction: column;
         margin-bottom: 71px;
+        width: 309px;
     }
     .boxTextRectangle{
-        margin-left: 5px;
+        margin-left: 0px;
     }
     #cardOne{
         margin-right: 0px;
@@ -272,8 +255,11 @@
 @media (max-width:768px){
     .rectangle1{
         padding-left: 30.72%;
-        padding-right: 22.39%;
+        padding-right: 30.72%;
         height: 1518px;
+    }
+    .boxCard{
+        margin-left: 8px;
     }
     #cardOne{
         margin-right: 0px;
@@ -284,29 +270,38 @@
         margin-bottom: 58px;
     }
 }
-@media (max-width:525px){
+@media(max-width:650px){ 
     .rectangle1{
-        padding-left: 24.72%;
-        padding-right: 16.39%;
+        padding-left: 23.72%;
+        padding-right: 23.72%;
         height: 1518px;
+    }
+}
+@media (max-width:540px){
+    .rectangle1{
+        padding-left: 18.98%;
+        padding-right: 18.98%;
     }
 }
 @media (max-width:490px){
     .rectangle1{
         padding-left: 18.72%;
-        padding-right: 10.39%;
+        padding-right: 18.72%;
     }
 }
 @media (max-width:450px){
     .rectangle1{
-        padding-left: 8.5%;
-        padding-right: 8.5%;
+        padding-left: 9.34%;
+        padding-right: 9.34%;
     }
 }
 @media (max-width:375px){
     .rectangle1{
         padding-left: 0%;
         padding-right: 0%;
+    }
+    .rectangleBox{
+        width: 316px;
     }
     .boxTextRectangle{
         width: 316px;

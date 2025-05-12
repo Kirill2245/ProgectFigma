@@ -162,11 +162,28 @@ input:checked + .slider:before {
     background-color: #EF5B59;
     color: #FFFFFF;
 }
-
+@media (max-width:1800px){
+    header{
+        padding-left: 22.05%;
+        padding-right: 22.05%;
+    }
+}
+@media(max-width:1600px){
+    header{
+        padding-left: 20.8%;
+        padding-right: 20.8%;
+    }
+}
+@media(max-width:1500px){
+    header{
+        padding-left: 18.8%;
+        padding-right: 18.8%;
+    }
+}
 @media(max-width:1440px){
     header{
         padding-left: 16.8%;
-        padding-right: 16.52%;
+        padding-right: 16.8%;
     }
     .btnMenu{
         width: 310px;
@@ -186,25 +203,35 @@ input:checked + .slider:before {
         margin-left: 5.625%;
     }
 }
-
-@media(max-width:1250px){
+@media(max-width:1300px){
     header{
         padding-left: 14.8%;
-        padding-right: 14.52%;
+        padding-right: 14.8%;
     }
 }
-
+@media(max-width:1250px){
+    header{
+        padding-left: 12.8%;
+        padding-right: 12.8%;
+    }
+}
+@media(max-width:1200px){
+    header{
+        padding-left: 9.8%;
+        padding-right: 9.8%;
+    }
+}
 @media(max-width:1150px){
     header{
-        padding-left: 10.8%;
-        padding-right: 10.52%;
+        padding-left: 7.8%;
+        padding-right: 7.8%;
     }
 }
 
 @media(max-width:1080px){
     header{
         padding-left: 6.8%;
-        padding-right: 6.52%;
+        padding-right: 6.8%;
     }
     .btnMenu{
         margin-left: 22.3958%;
@@ -217,18 +244,18 @@ input:checked + .slider:before {
     }
 }
 @media(max-width:1050px){
-    header{
+    /* header{
         padding-left: 2.8%;
-        padding-right: 2.52%;
-    }
+        padding-right: 2.8%;
+    } */
 }
 @media(max-width:990px){
     header{
-        padding-left: 0.8%;
-        padding-right: 0.52%;
+        padding-left: 5.77%;
+        padding-right: 5.77%;
     }
 }
-@media(max-width:850px){
+@media(max-width:875px){
     header{
         padding-left: 1.8%;
         padding-right: 0%;
@@ -255,7 +282,7 @@ input:checked + .slider:before {
     }
     header{
         padding-left: 3.25%;
-        padding-right: 3.125%;
+        padding-right: 3.25%;
     }
     .headerMenu{
         margin-top: 10.32px;

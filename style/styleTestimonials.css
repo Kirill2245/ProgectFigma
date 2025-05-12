@@ -42,9 +42,14 @@
 .groupTestimonials{
     width: 309px;
     height: 266px;
-    margin-right: 16px;
     display: flex;
     flex-direction: column;
+}
+.boxGroupTestimonials .groupTestimonials{
+    margin-right: 16px;
+}
+.boxGroupTestimonials .groupTestimonials:last-child {
+    margin-right: 0px;
 }
 .restangle{
     width: 100%;
@@ -102,34 +107,34 @@
 @media(max-width:1440px){
     .testimonials{
         margin-left:16.46%;
-        margin-right:16.875%;
+        margin-right:16.46%;
     }
 }
 
 @media(max-width:1250px){
     .testimonials{
         margin-left:14.46%;
-        margin-right:14.875%;
+        margin-right:14.46%;
     }
 }
 
 @media(max-width:1150px){
     .testimonials{
         margin-left:10.46%;
-        margin-right:10.875%;
+        margin-right:10.46%;
     }
 }
 
 @media(max-width:1080px){
     .testimonials{
         margin-left:6.46%;
-        margin-right:6.875%;
+        margin-right:6.46%;
     }
 }
-@media(max-width:1080px){
+@media(max-width:1050px){
     .testimonials{
         margin-left:2.46%;
-        margin-right:2.875%;
+        margin-right:2.46%;
     }
 }
 @media(max-width:990px){
@@ -156,7 +161,7 @@
 @media(max-width:768px){
     .testimonials{
         margin-left: 25.39%;
-        margin-right: 22.39%;
+        margin-right: 25.39%;
         width: 401px;
         height: 1035px;
         margin-bottom: 55px;
@@ -192,10 +197,16 @@
         margin-bottom: 0px;
     }
 }
-@media (max-width:525px){
+@media(max-width:650px){
     .testimonials{
-        margin-left: 15.39%;
-        margin-right: 15.39%;
+        margin-left: 18%;
+        margin-right: 18%;
+    }
+}
+@media (max-width:540px){
+    .testimonials{
+        margin-left: 13.11%;
+        margin-right: 13.11%;
     }
 }
 @media (max-width:490px){
@@ -206,8 +217,16 @@
 }
 @media (max-width:450px){
     .testimonials{
-        margin-left: 0.5%;
-        margin-right: 0.5%;
+        width: 349px;
+        margin-left: 7.64%;
+        margin-right: 7.64%;
+    }
+    .testimoialsP{
+        width: 100%;
+    }
+    .groupTestimonials{
+        margin: 0;
+        margin-left: 22px;
     }
 }
 @media (max-width:375px){
@@ -215,7 +234,7 @@
         width: 291.77056884765625px;
         height: 1035px;
         margin-left: 10.224%;
-        margin-right: 11.9706%;
+        margin-right: 10.224%;
         margin-top: 110px;
         margin-bottom: 0;
     }

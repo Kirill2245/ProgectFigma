@@ -196,28 +196,58 @@
     color:#EF5B59;
     border: 1px solid #EF5B59;
 }
-
+@media (max-width:1800px){
+    .hero{
+        margin-left: 22.05%;
+        margin-right: 22.05%;
+    }
+}
+@media (max-width:1600px){
+    .hero{
+        margin-left: 20.8%;
+        margin-right: 20.8%;
+    }
+}
+@media(max-width:1500px){
+    .hero{
+        margin-left: 18.8%;
+        margin-right: 18.8%;
+    }
+}
 @media(max-width:1440px){
     .hero{
         margin-left: 16.8%;
-        margin-right: 16.52%;
+        margin-right: 16.8%;
     }
 }
-
-@media(max-width:1250px){
+@media(max-width:1300px){
     .hero{
         margin-left: 14.8%;
-        margin-right: 14.52%;
+        margin-right: 14.8%;
+    }
+}
+@media(max-width:1250px){
+    .hero{
+        margin-left: 12.8%;
+        margin-right: 12.8%;
     }
     .subscrible{
         padding-left: 38.02%;
     }
 }
-
+@media(max-width:1200px){
+    .hero{
+        margin-left: 9.8%;
+        margin-right: 9.8%;
+    }
+    .subscrible{
+        padding-left: 38.02%;
+    }
+}
 @media(max-width:1150px){
     .hero{
-        margin-left: 10.8%;
-        margin-right: 10.52%;
+        margin-left: 7.8%;
+        margin-right: 7.8%;
     }
     .subscrible{
         padding-left: 34.02%;
@@ -230,7 +260,7 @@
     }
     .hero{
         margin-left: 6.8%;
-        margin-right: 6.52%;
+        margin-right: 6.8%;
         padding-left: 0.5%;
         padding-right: 12.7%;
         padding-top: 7.94%;
@@ -268,25 +298,19 @@
 @media(max-width:1150px){
     .hero{
         margin-left: 6.8%;
-        margin-right: 6.52%;
-    }
-    .subscrible{
-        padding-left: 26.02%;
+        margin-right: 6.8%;
     }
 }
 @media(max-width:990px){
     .hero{
-        margin-left: 0%;
-        margin-right: 0%;
-    }
-    .subscrible{
-        padding-left: 22.02%;
+        margin-left: 5.77%;
+        margin-right: 5.77%;
     }
 }
-@media(max-width:850px){ 
+@media(max-width:875px){ 
     .hero{
-        margin-left: 1.8%;
-        margin-right: 1.52%;
+        margin-left: 5.77%;
+        margin-right: 5.77%;
         padding-left: 0.5%;
         padding-right: 12.7%;
         padding-top: 7.94%;
@@ -348,7 +372,7 @@
 @media(max-width:730px){ 
     .hero{
         padding-left: 25.02%;
-        padding-right: 25.05%;
+        padding-right: 25.02%;
         padding-top: 0px;
         padding-bottom: 0px;
         height: auto;
@@ -365,23 +389,36 @@
     .btnGet{
         margin-bottom: 0;
     }
+    .subscrible{
+        padding-left: 20.02%;
+        padding-right: 20.02%;
+    }
 }
-@media(max-width:525px){ 
+@media(max-width:650px){ 
     .hero{
-        padding-left: 19.02%;
-        padding-right: 19.05%;
+        padding-left: 20.02%;
+        padding-right: 20.02%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: auto;
+    }
+}
+@media(max-width:540px){ 
+    .hero{
+        padding-left: 17.02%;
+        padding-right: 17.02%;
         padding-top: 0px;
         padding-bottom: 0px;
         height: auto;
     }
     .subscrible{
-        padding-left: 19.02%;
+        padding-left: 17.02%;
     }
 }
 @media (max-width:490px){
     .hero{
         padding-left: 13.02%;
-        padding-right: 13.05%;
+        padding-right: 13.02%;
     }
     .subscrible{
         padding-left: 13.02%;
@@ -389,11 +426,11 @@
 }
 @media (max-width:450px){
     .hero{
-        padding-left: 1.5%;
-        padding-right: 0.5%;
+        padding-left: 8.5%;
+        padding-right: 8.5%;
     }
     .subscrible{
-        padding-left: 0.5%;
+        padding-left: 8.5%;
     }
     .textGroup_1{
         font-size: 0.9375em;
@@ -403,6 +440,15 @@
     }
     .boxInputSub input {
         margin-right: 12px;
+    }
+}
+@media (max-width:430px){
+    .hero{
+        padding-left: 7.64%;
+        padding-right: 7.64%;
+    }
+    .subscrible{
+        padding-left: 3.5%;
     }
 }
 @media (max-width:375px){
@@ -417,7 +463,7 @@
     }
     .boxHero{
         width: 325px;
-        margin-left:25px;
+        margin-left:22px;
     }
     .btnGet{
         width: 155px;
@@ -439,7 +485,7 @@
         height: 193.35012817382812px;
         margin-top: 103.65px;
         margin-bottom: 103px;
-        margin-left: 25px;
+        margin-left: 22px;
     }
     .group img{
         width: 17.94865608215332px;

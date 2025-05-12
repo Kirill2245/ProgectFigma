@@ -136,42 +136,42 @@ footer{
 @media(max-width:1440px){
     footer{
         padding-left: 16.8%;
-        padding-right: 13.19%;
+        padding-right: 16.8%;
     }
 }
 
 @media(max-width:1250px){
     footer{
         padding-left: 14.8%;
-        padding-right: 11.19%;
+        padding-right: 14.8%;
     }
 }
 
 @media(max-width:1150px){
     footer{
         padding-left: 10.8%;
-        padding-right: 7.19%;
+        padding-right: 10.8%;
     }
 }
 
 @media(max-width:1080px){
     footer{
         padding-left: 6.8%;
-        padding-right: 3.19%;
+        padding-right: 6.8%;
     }
 }
 
 @media(max-width:1050px){
     footer{
         padding-left: 2.8%;
-        padding-right: 0.19%;
+        padding-right: 2.8%;
     }
 }
 
 @media(max-width:990px){
     footer{
         padding-left: 31.8%;
-        padding-right: 0%;
+        padding-right: 31.8%;
         height: 500px;
     }
     .mainBoxText{
@@ -213,7 +213,7 @@ footer{
         width: 100%;
         height: auto;
         padding-left: 30.2%;
-        padding-right: 28.51%;
+        padding-right: 30.2%;
         padding-top: 68px;
         margin-bottom: 76px;
     }
@@ -287,21 +287,27 @@ footer{
         background-repeat: no-repeat;
     }
 }
-@media (max-width:525px){
+@media (max-width:650px){
     footer{
-        padding-left: 24.2%;
-        padding-right: 22.51%;
+        padding-left: 23.2%;
+        padding-right: 23.2%;
+    }
+}
+@media (max-width:540px){
+    footer{
+        padding-left: 20.64%;
+        padding-right: 20.64%;
     }
 }
 @media (max-width:490px){
     footer{
         padding-left: 18.2%;
-        padding-right: 16.51%;
+        padding-right: 18.2%;
     }
 }
 @media (max-width:450px){
     footer{
-        padding-left: 8.5%;
-        padding-right: 8.5%;
+        padding-left: 13.13%;
+        padding-right: 13.13%;
     }
 }

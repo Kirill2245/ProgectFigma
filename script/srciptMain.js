@@ -44,8 +44,7 @@ function switchingTheme(){
         });
         btnContact.style.backgroundColor = "#FFFFFF";
         btnContact.style.color = "#EF5B59";
-        poligon.src = 'img/polygon.svg';
-        poligon.src = 'img/polygon.svg';
+        poligon.src = 'img/polygon.svg';    
         //home
         homeHeader.style.color = "#343A40";
         //subscribe
