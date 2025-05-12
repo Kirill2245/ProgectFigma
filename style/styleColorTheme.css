@@ -1,0 +1,115 @@
+.dark-theme {
+    background-color: #343A40;
+}
+.dark-theme h1,
+.dark-theme h2,
+.dark-theme h3,
+.dark-theme h4,
+.dark-theme h5 {
+    color: #FFFFFF; 
+}
+.dark-theme .btnMenu button{
+    color: #F4F7FE;
+}
+.dark-theme .btnContact{
+    background-color: #EF5B59;
+    color: #F4F7FE;
+}
+
+.dark-theme .subscrible{
+    background-color: #EF5B59;
+}
+.dark-theme .subscrible p{
+    color: #F4F7FE;
+}
+.dark-theme .subscrible button{
+    background-color: #343A40;
+}
+
+.dark-theme .features p{
+    color: #F4F7FE;
+}
+
+.dark-theme .testimoialsP{
+    color: #F4F7FE;
+}
+.dark-theme .profile p{
+    color: #F4F7FE;
+}
+
+.dark-theme .rectangle1{
+    background-color: #DE4A46;
+}
+.dark-theme .rectangle1 p{
+    color: #F4F7FE;
+}
+.dark-theme .rectangle1 button{
+    color: #F4F7FE;
+    background-color: #343A40;
+}
+
+.dark-theme .footerBox p{
+    color: #F4F7FE;
+}
+.dark-theme .footerBox img{
+    display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    .dark-theme {
+        background-color: #343A40;
+    }
+    .dark-theme h1,
+    .dark-theme h2,
+    .dark-theme h3,
+    .dark-theme h4,
+    .dark-theme h5 {
+        color: #FFFFFF; 
+    }
+    .dark-theme .btnMenu button{
+        color: #F4F7FE;
+    }
+    .dark-theme .btnContact{
+        background-color: #EF5B59;
+        color: #F4F7FE;
+    }
+    
+    .dark-theme .subscrible{
+        background-color: #EF5B59;
+    }
+    .dark-theme .subscrible p{
+        color: #F4F7FE;
+    }
+    .dark-theme .subscrible button{
+        background-color: #343A40;
+    }
+    
+    .dark-theme .features p{
+        color: #F4F7FE;
+    }
+    
+    .dark-theme .testimoialsP{
+        color: #F4F7FE;
+    }
+    .dark-theme .profile p{
+        color: #F4F7FE;
+    }
+    
+    .dark-theme .rectangle1{
+        background-color: #DE4A46;
+    }
+    .dark-theme .rectangle1 p{
+        color: #F4F7FE;
+    }
+    .dark-theme .rectangle1 button{
+        color: #F4F7FE;
+        background-color: #343A40;
+    }
+    
+    .dark-theme .footerBox p{
+        color: #F4F7FE;
+    }
+    .dark-theme .footerBox img{
+        display: none;
+    }
+}
