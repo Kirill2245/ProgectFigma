@@ -8,9 +8,11 @@
 .features{
     width: 962px;
     height: 1157px;
-    margin: 80px 25.77% 80px 25.77%;
+    margin-top: 80px;
+    margin-bottom: 80px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-bottom: 80px;
     font-size: 1rem;
 }
@@ -20,7 +22,8 @@
     line-height: 36px;
     letter-spacing: 0%;
     color: #343A40;
-    margin: 0 25.06% 68px;
+    margin-bottom:68px;
+    margin-top: 0;
 }
 .projectSection{
     width: 100%;
@@ -120,15 +123,12 @@
 /* companies */
 .companies{
     width: 100%;
-    max-width: 100%;
-    min-width: 1924px;
     height: 269px;
     background-color: #20014D;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    padding-left: 23.28%;
-    padding-right: 25.25%;
+    align-items: center;
     color: #F4F7FE;
     font-size: 1rem;
 }
@@ -140,8 +140,6 @@
     letter-spacing: 0%;
     margin-top: 32px;
     margin-bottom: 16px;
-    margin-left: 328px;
-    margin-right:298px ;
     text-align: center;
 }
 .companies p{
@@ -151,17 +149,14 @@
     line-height: 16px;
     letter-spacing: 0%;
     margin: 0;
-    margin-left: 390px;
-    margin-right: 358px;
     text-align: center;
 }
 .imgGroup{
+    max-width:990px;
     margin-top: 32px;
     margin-bottom: 32px;
     height: 105px;
-    width: 990px;
     display: flex;
-    /* align-items: center; */
 }
 .imgGroup img{
     width: 100px;
@@ -199,115 +194,14 @@
     margin-top: 33px;
     margin-bottom: 36.6px;
 }
-@media (max-width:1800px){
-    .features{
-        margin: 80px 22.77% 80px 22.77%;
-    }
-}
-@media(max-width:1600px){
-    .features{
-        margin: 80px 20.77% 80px 20.77%;
-    }
-}
-@media(max-width:1500px){
-    .features{
-        margin: 80px 18.77% 80px 18.77%;
-    }
-}
-@media(max-width:1440px){
-    .features{
-        margin-left: 17.77%;
-        margin-right: 17.77%;
-    }
-    .companies{
-        padding-left: 15.75%;
-    }
-}
-@media(max-width:1300px){
-    .features{
-        margin-left: 15.77%;
-        margin-right: 15.77;
-    }
-}
-@media(max-width:1250px){
-    .features{
-        margin-left: 13.77%;
-        margin-right: 13.77;
-    }
-    .companies{
-        padding-left: 13.75%;
-    }
-}
-@media(max-width:1200px){
-    .features{
-        margin-left: 10.77%;
-        margin-right: 10.77;
-    }
-    .companies{
-        padding-left: 13.75%;
-    }
-}
-@media(max-width:1150px){
-    .features{
-        margin-left: 8.77%;
-        margin-right: 8.77;
-    }
-    .companies{
-        padding-left: 9.75%;
-    }
-}
 @media(max-width:1080px){
-    .features{
-        margin-left: 5.77%;
-        margin-right: 5.77;
-        width: 820.27px;
-        height: 1105px;
-        margin-bottom: 130px;
-    }
     .features h2{
         width: 500px;
         margin-bottom: 88px;
     }
-    .projectSection{
-        width: 820.27px;
-        height: 966px;
-    }
-    .companies{
-        padding-left: 4.5%;
-    }
 
-}
-@media(max-width:1050px){
-    .features{
-        margin-left: 2.77%;
-        margin-right: 2.77%;
-    }
-    .companies{
-        padding-left: 0.5%;
-    }
 }
 @media(max-width:990px){
-    .features{
-        margin-left: 5.77%;
-        margin-right: 5.77%;
-
-    }
-    .group1 article{
-        margin-left: 40px;
-    }
-    .group2 article{
-        margin-right: 40px;
-    }
-    .group3 article{
-        margin-left: 40px;
-    }
-    .companies{
-        padding-left: 5.77%;
-        padding-right: 5.77%;
-    }
-    .imgGroup{
-        margin-left: 0.5%;
-    }
     #adobe{
         margin-top: 11.1px;
         margin-bottom: 11.1px;
@@ -347,8 +241,6 @@
 }
 @media (max-width:965px){
     .features{
-        margin-left: 5.77%;
-        margin-right: 5.77%;
         width: 820.27px;
         height: 1105px;
         margin-bottom: 130px;
@@ -363,13 +255,6 @@
     .imgGroup img{
         width: 100px;
         margin-left: 60px;
-    }
-    .companies h2{
-        margin-right: 0;
-        margin-left: 12%;
-    }
-    .companies p{
-        margin-left: 14.5%;
     }
     .group1 article{
         margin-left: 30px;
@@ -391,85 +276,32 @@
         width: 280px;
     }
 }
-@media(max-width:875px){
-    .features{
-        margin-left: 5.77%;
-        margin-right: 5.77;
-        width: 820.27px;
-        height: 1105px;
-        margin-bottom: 130px;
-    }
-    .features h2{
-        margin-bottom: 88px;
-        margin-left: 19.05%;
-        margin-right: 19.05%;
-    }
-    .projectSection{
-        width: 820.27px;
-        height: 966px;
-    }
-    .imgGroup img{
-        width: 100px;
-        margin-left: 60px;
-    }
-    .companies{
-        padding-left: 2.5%;
-    }
-    .companies h2{
-        margin-right: 0;
-        margin-left: 12%;
-    }
-    .companies p{
-        margin-left: 14.5%;
-    }
-    .group1 article{
-        margin-left: 30px;
-    }
+@media (max-width:835px){
     .group1 img{
         width: 348px;
         height: 167px;
-        margin-right: 0px;
-    }
-    .group2 article{
-        width: 338px;
-        margin-right: 19px;
+        margin-right: 66.75px;
     }
     .group2 img{
         width: 334px;
         height: 257px;
         margin-left: 73.73px;
     }
-    .group3 article{
-        margin-left: 59px;
-    }
     .group3 img{
         width: 349px;
         height: 252px;
         margin-right: 61px;
     }
-    .group1 p{
-        width: 250px;
-    }
-    .group2 p{
-        width: 280px;
-    }
-    .group3 p{
-        width: 280px;
-    }
-}
-@media (max-width:768px){
     .features{
         width: 720.27px;
         height: 1105px;
-        margin-left: 24px;
-        margin-right: 24px;
         margin-bottom: 132px;
     }
     .features h2{
         width: 480px;
         height: 36px;
         margin-top: 0;
-        margin-left: 137.27px;
+        /* margin-left: 137.27px; */
         margin-right: 103px;
         margin-bottom: 103px;
     }
@@ -540,22 +372,13 @@
         height: 112.86px;
     }
     .imgGroup img{
-        margin-left: 57.75px;
-    }
-    .companies h2{
-        margin-right: 0;
-        margin-left: 10%;
-    }
-    .companies p{
-        margin-left: 12.5%;
+        margin-left: 40.75px;
     }
 }
 @media (max-width:730px){
     .features{
         width: 349px;
         height: auto;
-        margin-left: 25%;
-        margin-right: 25%;
     }
     .features h2{
         margin: 0;
@@ -585,19 +408,7 @@
     .group3 img{
         margin-right: 0;
     }
-    .companies{
-        padding-left: 23.28%;
-        padding-right: 23.28%;
-    }
-    .companies h2{
-        margin-right: 0;
-        margin-left: 2%;
-    }
-    .companies p{
-        margin-left: 4.5%;
-    }
     .imgGroup{
-        margin-left: 0.3%;
         width: 335px;
         height: 35.53px;
     }
@@ -641,64 +452,9 @@
         height: 33.838382720947266px;
     }
 }
-@media(max-width:650px){ 
-    .features{
-        margin-left: 20%;
-        margin-right: 20%;
-    }
-    .companies h2{
-        margin-right: 0%;
-        margin-left: 0%;
-    }
-    .companies p{
-        margin-left: 2.5%;
-    }
-    .companies{
-        padding-left: 18.28%;
-        padding-right: 18.28%;
-    }
-}
-@media (max-width:540px){
-    .features{
-        margin-left: 17.07%;
-        margin-right: 17.07%;
-    }
-    .companies{
-        padding-left: 17.28%;
-        padding-right: 17.28%;
-    }
-}
-@media (max-width:490px){
-    .features{
-        margin-left: 13%;
-        margin-right: 13%;
-    }
-    .companies p{
-        margin-left: 0.5%;
-    }
-    .companies{
-        padding-left: 11.28%;
-        padding-right: 13.25%;
-    }
-}
-@media (max-width:450px){
-    .features{
-        margin-left: 7.64%;
-        margin-right: 7.64%;
-    }
-    .companies p{
-        margin-left: 2.5%;
-    }
-    .companies{
-        padding-left: 7.64%;
-        padding-right: 7.64%;
-    }
-}
 @media (max-width:375px){
     .features{
         margin-bottom: 196px;
-        margin-left: 5.866%;
-        margin-right: 5.866%;
         margin-bottom: 143px;
         width: 329px;
         height: 1127px;
@@ -795,342 +551,13 @@
     .companies p{
         width: 244px;
         height: 16px;
-        margin-left: 2.5%;
         text-align: center;
-
-    }
-    .companies{
-        padding-left: 2.866%;
-        padding-right: 2.866%;
     }
     .companies h2{
         font-size: 1.75em;
         width: 318px;
         height: 32px;
         text-align: center;
-        margin-left: 1%;
     }
 }
-@-moz-document url-prefix() {
-    .group2 article{
-        margin-right: 0px;
-        width: 50%;
-    }
-    .group1 article{
-        display: flex;
-        flex-direction: column;
-        margin-left: 98px;
-        height: 100%;
-        width: 43.4%;
-    }
-    .group3 article{
-        display: flex;
-        flex-direction: column;
-        width: 50.94%;
-        height: 100%;
-    }
-    .group1 img{
-        width: 553px;
-        height: 265px;
-        margin-right: 0px;
-    }
-    .group2 img{
-        width: 472px;
-        height: 364px;
-    }
-    .group3 img{
-        width: 472px;
-        height: 341px;
-    }
-    @media(max-width:990px){
-        .features{
-            margin-left: 5.77%;
-            margin-right: 5.77%;
-        }
-        .group1 article{
-            margin-left: 40px;
-        }
-        .group2 article{
-            margin-right: 40px;
-        }
-        .group3 article{
-            margin-left: 40px;
-        }
-        .companies{
-            padding-left: 0%;
-            padding-right: 0%;
-        }
-        .imgGroup{
-            margin-left: 0.5%;
-        }
-        #adobe{
-            margin-top: 11.1px;
-            margin-bottom: 11.1px;
-            width: 74.04px;
-            height: 55.53px;
-        }
-        #amazon{
-            width: 74.04px;
-            height: 55.53px;
-            margin-top: 11.1px;
-            margin-bottom: 11.1px;
-        }
-        #face{
-            width: 74.04px;
-            height: 55.53px;
-            margin-top: 11.1px;
-            margin-bottom: 11.1px;
-        }
-        #google{
-            width: 74.04px;
-            height: 26.21px;
-            margin-bottom: 27.1px;
-            margin-top: 24.44px;
-        }
-        #intel{
-            width: 74.04px;
-            height: 74.04px;
-            margin-bottom: 3.71px;
-            margin-top: 0;
-        }
-        #samsung{
-            margin-bottom: 0;
-            margin-top: 3.71px;
-            width: 74.04px;
-            height: 74.04px;
-        }
-    }
-    @media (max-width:965px){
-        .features{
-            margin-left: 5.77%;
-            margin-right: 5.77%;
-            width: 820.27px;
-            height: 1105px;
-            margin-bottom: 130px;
-        }
-        .features h2{
-            margin-bottom: 88px;
-        }
-        .projectSection{
-            width: 820.27px;
-            height: 966px;
-        }
-        .imgGroup img{
-            width: 100px;
-            margin-left: 60px;
-        }
-        .companies h2{
-            margin-right: 0;
-            margin-left: 12%;
-        }
-        .companies p{
-            margin-left: 14.5%;
-        }
-        .group1 article{
-            margin-left: 30px;
-        }
-        .group2 article{
-            width: 338px;
-            margin-right: 19px;
-        }
-        .group3 article{
-            margin-left: 59px;
-        }
-        .group1 img{
-            width: 348px;
-            height: 167px;
-            margin-right: 0px;
-        }
-        .group2 img{
-            width: 334px;
-            height: 257px;
-            margin-left: 0px;
-        }
-        .group3 img{
-            width: 349px;
-            height: 252px;
-            margin-right: 0px;
-        }
-        .group1 p{
-            width: 250px;
-        }
-        .group2 p{
-            width: 280px;
-        }
-        .group3 p{
-            width: 280px;
-        }
-    }
-    @media (max-width:768px){
-        .group1 img{
-            width: 348px;
-            height: 167px;
-            margin-right: 0;
-        }
-        .group2 img{
-            width: 334px;
-            height: 257px;
-        }
-        .group3 img{
-            width: 349px;
-            height: 252px;
-        }
-        .companies{
-            padding-left: 23.28%;
-            padding-right: 25.25%;
-        }
-        .companies h2{
-            margin-right: 0;
-            margin-left: 2%;
-        }
-        .companies p{
-            margin-left: 4.5%;
-        }
-        .imgGroup{
-            margin-left: 0.3%;
-            width: 335px;
-            height: 35.53px;
-        }
-        .imgGroup img{
-            margin-left: 26.39px;
-        }
-        #adobe{
-            margin-top: 5.08px;
-            margin-bottom: 5.08px;
-            width:33.84px;
-            height: 25.378787994384766px;
-        }
-        #amazon{
-            width: 33.838382720947266px;
-            height: 25.378787994384766px;
-            margin-top: 5.08px;
-            margin-bottom: 5.08px;
-        }
-        #face{
-            width: 33.838382720947266px;
-            height: 25.378787994384766px;
-            margin-top: 5.08px;
-            margin-bottom: 5.08px;
-        }
-        #google{
-            width: 33.838382720947266px;
-            height: 11.97826099395752px;
-            margin-bottom: 12.38px;
-            margin-top: 11.17px;
-        }
-        #intel{
-            width: 33.838382720947266px;
-            height: 33.838382720947266px;
-            margin-bottom: 1.7px;
-            margin-top: 0;
-        }
-        #samsung{
-            margin-bottom: 0;
-            margin-top: 1.7px;
-            width: 33.838382720947266px;
-            height: 33.838382720947266px;
-        }
-    }
-    @media (max-width:770px){
-        .group2 h3{
-            width: 200px;
-            margin-top: 0px;
-        }
-        .group3 h3{
-            width: 200px;
-            margin-top: 0px;
-        }
-    }
-    @media (max-width:730px){
-        .projectSection{
-            height: auto;
-        }
-        .projectSection h3{
-            margin-bottom: 12px;
-        }
-        .group1 article , .group2 article , .group3 article{
-            margin-left: 0px;
-            margin-right: 0;
-        }
-        .group1, .group2, .group3{
-            height: auto;
-            width: 300px;
-            margin-bottom: 89px;
-        }
-        .features{
-            width: 349px;
-            height: auto;
-            margin-left: 25%;
-            margin-right: 25%;
-        }
-    }
-    @media (max-width:540px){
-        .features{
-            margin-left: 17.07%;
-            margin-right: 17.07%;
-        }
-        .companies{
-            padding-left: 17.28%;
-            padding-right: 17.28%;
-        }
-    }
-    @media (max-width:490px){
-        .features{
-            margin-left: 13%;
-            margin-right: 13%;
-        }
-        .companies p{
-            margin-left: 0.5%;
-        }
-        .companies{
-            padding-left: 11.28%;
-            padding-right: 13.25%;
-        }
-    }
-    @media (max-width:450px){
-        .features{
-            margin-left: 7.64%;
-            margin-right: 7.64%;
-        }
-        .companies p{
-            margin-left: 1.5%;
-        }
-        .companies h2{
-            margin-left: 0;
-        }
-        .companies{
-            padding-left: 5.64%;
-            padding-right: 5.64%;
-        }
-    } 
-    @media (max-width:375px){
-        .group1 img{
-            width: 184.24px;
-            height: 72px;
-        }   
-        .group2 img{
-            width: 190.42323303222656px;
-            height: 118px;
-            margin-left: 54.41px;
-            margin-right: 53.17px;
-            margin-bottom: 19px;
-        }
-        .group3 img{
-            width: 190.42323303222656px;
-            height: 111px;
-        }
-        .companies h2{
-            width: 318px;
-            height: 32px;
-            text-align: center;
-            margin-left: 1%;
-        }
-        .companies p{
-            margin-left: 2.5%;
-        }
-        .companies{
-            padding-left: 2.866%;
-            padding-right: 2.866%;
-        }
-    }
-}
+

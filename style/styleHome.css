@@ -1,8 +1,11 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .hero{
-    width: 960px;
+    max-width: 960px;
     height: 428px;
-    margin-left: 25.05%;
-    margin-right: 25.05%;
     padding-top: 12px;
     padding-bottom: 58px;
     margin-top: 80px;
@@ -78,10 +81,9 @@
     min-width: 1924px;
     height: 400px;
     background-color: #F4F7FE;
-    padding-left: 40.02%;
-    padding-right: 40.06%;
     box-sizing: border-box;
     display: inline-flex;
+    justify-content: center;
 }
 .group{
     margin-top: 82px;
@@ -196,76 +198,7 @@
     color:#EF5B59;
     border: 1px solid #EF5B59;
 }
-@media (max-width:1800px){
-    .hero{
-        margin-left: 22.05%;
-        margin-right: 22.05%;
-    }
-}
-@media (max-width:1600px){
-    .hero{
-        margin-left: 20.8%;
-        margin-right: 20.8%;
-    }
-}
-@media(max-width:1500px){
-    .hero{
-        margin-left: 18.8%;
-        margin-right: 18.8%;
-    }
-}
-@media(max-width:1440px){
-    .hero{
-        margin-left: 16.8%;
-        margin-right: 16.8%;
-    }
-}
-@media(max-width:1300px){
-    .hero{
-        margin-left: 14.8%;
-        margin-right: 14.8%;
-    }
-}
-@media(max-width:1250px){
-    .hero{
-        margin-left: 12.8%;
-        margin-right: 12.8%;
-    }
-    .subscrible{
-        padding-left: 38.02%;
-    }
-}
-@media(max-width:1200px){
-    .hero{
-        margin-left: 9.8%;
-        margin-right: 9.8%;
-    }
-    .subscrible{
-        padding-left: 38.02%;
-    }
-}
-@media(max-width:1150px){
-    .hero{
-        margin-left: 7.8%;
-        margin-right: 7.8%;
-    }
-    .subscrible{
-        padding-left: 34.02%;
-    }
-}
-
 @media(max-width:1080px){
-    .subscrible{
-        padding-left: 30.02%;
-    }
-    .hero{
-        margin-left: 6.8%;
-        margin-right: 6.8%;
-        padding-left: 0.5%;
-        padding-right: 12.7%;
-        padding-top: 7.94%;
-        padding-bottom: 23.55%;
-    }
     .boxHero{
         width: 818px;
         height: 400.92px;
@@ -295,27 +228,8 @@
         margin-top: 6px;
     }
 }
-@media(max-width:1150px){
-    .hero{
-        margin-left: 6.8%;
-        margin-right: 6.8%;
-    }
-}
-@media(max-width:990px){
-    .hero{
-        margin-left: 5.77%;
-        margin-right: 5.77%;
-    }
-}
+
 @media(max-width:875px){ 
-    .hero{
-        margin-left: 5.77%;
-        margin-right: 5.77%;
-        padding-left: 0.5%;
-        padding-right: 12.7%;
-        padding-top: 7.94%;
-        padding-bottom: 23.55%;
-    }
     .boxHero{
         width: 758px;
         height: 300.92px;
@@ -346,14 +260,6 @@
     }
 }
 @media(max-width:768px){ 
-    .hero{
-        margin-left: 0;
-        margin-right: 0;
-        padding-left: 2.7%;
-        padding-right: 12.7%;
-        padding-top: 34px;
-        padding-bottom: 115px;
-    }
     .boxHero{
         width: 718px;
         height: 300.92px;
@@ -371,10 +277,6 @@
 }
 @media(max-width:730px){ 
     .hero{
-        padding-left: 25.02%;
-        padding-right: 25.02%;
-        padding-top: 0px;
-        padding-bottom: 0px;
         height: auto;
     }
     .boxHero{
@@ -389,49 +291,9 @@
     .btnGet{
         margin-bottom: 0;
     }
-    .subscrible{
-        padding-left: 20.02%;
-        padding-right: 20.02%;
-    }
 }
-@media(max-width:650px){ 
-    .hero{
-        padding-left: 20.02%;
-        padding-right: 20.02%;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        height: auto;
-    }
-}
-@media(max-width:540px){ 
-    .hero{
-        padding-left: 17.02%;
-        padding-right: 17.02%;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        height: auto;
-    }
-    .subscrible{
-        padding-left: 17.02%;
-    }
-}
-@media (max-width:490px){
-    .hero{
-        padding-left: 13.02%;
-        padding-right: 13.02%;
-    }
-    .subscrible{
-        padding-left: 13.02%;
-    }
-}
+
 @media (max-width:450px){
-    .hero{
-        padding-left: 8.5%;
-        padding-right: 8.5%;
-    }
-    .subscrible{
-        padding-left: 8.5%;
-    }
     .textGroup_1{
         font-size: 0.9375em;
     }
@@ -443,19 +305,8 @@
     }
 }
 @media (max-width:430px){
-    .hero{
-        padding-left: 7.64%;
-        padding-right: 7.64%;
-    }
-    .subscrible{
-        padding-left: 3.5%;
-    }
 }
 @media (max-width:375px){
-    .hero{
-        padding-left: 0%;
-        padding-right: 0%;
-    }
     .heroImg{
         width: 155px;
         height: 100px;
@@ -476,9 +327,6 @@
         width: 182px;
         height: 32.67px;
         margin-right: 6.29px;
-    }
-    .subscrible{
-        padding: 0;
     }
     .group{
         width: 327px;

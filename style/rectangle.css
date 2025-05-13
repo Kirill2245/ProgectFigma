@@ -4,22 +4,20 @@
     min-width: 1924px;
     box-sizing: border-box;
     display: flex;
+    justify-content: center;
     height: 652px;
     background-color: #F4F7FE;
     margin-top: 41px;
-    padding-left: 24.53%;
-    padding-right: 25.36%;
     font-size: 1rem;
 }
 .rectangleBox{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .boxTextRectangle{
     width: 335px;
     height: 76px;
-    margin-left: 322px;
-    margin-right: 307px;
     margin-top: 41px;
 }
 .boxTextRectangle h2{
@@ -198,38 +196,8 @@
     margin-bottom: 37px;
     margin-top: 27px; 
 }
-
-@media(max-width:1440px){
-    .rectangle1{
-        padding-left: 17%;
-    }
-}
-
-@media(max-width:1250px){
-    .rectangle1{
-        padding-left: 15%;
-    }
-}
-
-@media(max-width:1150px){
-    .rectangle1{
-        padding-left: 11%;
-    }
-}
-
-@media(max-width:1080px){
-    .rectangle1{
-        padding-left: 7%;
-    }
-}
-@media(max-width:1050px){
-    .rectangle1{
-        padding-left: 3%;
-    }
-}
 @media(max-width:990px){
     .rectangle1{
-        padding-left: 33.08%;
         height: auto;
     }
     .rectangleBox{
@@ -239,9 +207,6 @@
         flex-direction: column;
         margin-bottom: 71px;
         width: 309px;
-    }
-    .boxTextRectangle{
-        margin-left: 0px;
     }
     #cardOne{
         margin-right: 0px;
@@ -254,12 +219,7 @@
 }
 @media (max-width:768px){
     .rectangle1{
-        padding-left: 30.72%;
-        padding-right: 30.72%;
         height: 1518px;
-    }
-    .boxCard{
-        margin-left: 8px;
     }
     #cardOne{
         margin-right: 0px;
@@ -272,44 +232,17 @@
 }
 @media(max-width:650px){ 
     .rectangle1{
-        padding-left: 23.72%;
-        padding-right: 23.72%;
         height: 1518px;
     }
 }
-@media (max-width:540px){
-    .rectangle1{
-        padding-left: 18.98%;
-        padding-right: 18.98%;
-    }
-}
-@media (max-width:490px){
-    .rectangle1{
-        padding-left: 18.72%;
-        padding-right: 18.72%;
-    }
-}
-@media (max-width:450px){
-    .rectangle1{
-        padding-left: 9.34%;
-        padding-right: 9.34%;
-    }
-}
 @media (max-width:375px){
-    .rectangle1{
-        padding-left: 0%;
-        padding-right: 0%;
-    }
     .rectangleBox{
         width: 316px;
     }
     .boxTextRectangle{
         width: 316px;
         height: 120px;
-        margin-left: 7.4667%;
-        margin-right: 8.2667%;
         margin-top: 47px;
-        margin-bottom: 34px;
     }
     .boxTextRectangle h2{
         width: 316px;
@@ -325,9 +258,5 @@
         margin-bottom: 0;
         margin-top: 0;
         text-align: center;
-    }
-    .boxCard{
-        margin-left: 8.8%;
-        margin-right: 8.8%;
     }
 }

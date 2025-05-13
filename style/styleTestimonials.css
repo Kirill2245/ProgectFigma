@@ -4,8 +4,7 @@
     height: 399px;
     display: flex;
     flex-direction: column;
-    margin-left:25.05%;
-    margin-right:25.05%;
+    align-items: center;
     font-size: 1rem;
 }
 .testimonials h2{
@@ -14,8 +13,6 @@
     line-height: 36px;
     letter-spacing: 0%;
     color:#343A40;
-    margin-left: 385px;
-    margin-right: 389px;
     margin-bottom: 25.23px;
     margin-top: 0;
     width: 186px;
@@ -27,8 +24,6 @@
     line-height: 24px;
     letter-spacing: 0%;
     text-align: center;
-    margin-left: 282px;
-    margin-right: 277px;
     color: #757575;
     margin-top: 0;
     margin-bottom: 0;
@@ -37,7 +32,10 @@
 }
 .boxGroupTestimonials {
     display: flex;
+    justify-content: center;
     margin-top: 61.49px;
+    width: 100%;
+    height: 100%;
 }
 .groupTestimonials{
     width: 309px;
@@ -103,75 +101,25 @@
     margin-left: 13px;
     color: #757575;
 }
-
-@media(max-width:1440px){
-    .testimonials{
-        margin-left:16.46%;
-        margin-right:16.46%;
-    }
-}
-
-@media(max-width:1250px){
-    .testimonials{
-        margin-left:14.46%;
-        margin-right:14.46%;
-    }
-}
-
-@media(max-width:1150px){
-    .testimonials{
-        margin-left:10.46%;
-        margin-right:10.46%;
-    }
-}
-
-@media(max-width:1080px){
-    .testimonials{
-        margin-left:6.46%;
-        margin-right:6.46%;
-    }
-}
-@media(max-width:1050px){
-    .testimonials{
-        margin-left:2.46%;
-        margin-right:2.46%;
-    }
-}
 @media(max-width:990px){
     .testimonials{
-        margin-left:0.39%;
-        margin-right:0.39%;
         height:auto;
         width: 100%;
     }
     .boxGroupTestimonials{
         flex-wrap: wrap;
-        margin-left: 100px;
-    }
-}
-@media (max-width:800px){
-    .testimonials h2{
-        margin-left: 41.1%;
-        margin-right: 27.79%;
-    }
-    .testimoialsP{
-        margin-left: 29.375%;
     }
 }
 @media(max-width:768px){
     .testimonials{
-        margin-left: 25.39%;
-        margin-right: 25.39%;
         width: 401px;
-        height: 1035px;
+        height: auto;
         margin-bottom: 55px;
     }
     .testimonials h2{
         width: 186px;
         height: 27.77px;
         margin-top: 0;
-        margin-left: 25.685%;
-        margin-right: 27.79%;
         margin-bottom: 25.23px;
     }
     .testimoialsP{
@@ -179,17 +127,13 @@
         height: 18.51px;
         margin-top: 0;
         margin-bottom: 55.49px;
-        margin-left: 0;
-        margin-right: 0;
     }
     .boxGroupTestimonials{
         flex-direction: column;
-        margin-left: 0;
-        margin-top: 0;
+        align-items: center;
+        height: auto;
     }
     .groupTestimonials{
-        margin-left: 10.97%;
-        margin-right: 0;
         margin-top: 0;
         margin-bottom: 55px;
     }
@@ -197,69 +141,29 @@
         margin-bottom: 0px;
     }
 }
-@media(max-width:650px){
-    .testimonials{
-        margin-left: 18%;
-        margin-right: 18%;
-    }
-}
-@media (max-width:540px){
-    .testimonials{
-        margin-left: 13.11%;
-        margin-right: 13.11%;
-    }
-}
-@media (max-width:490px){
-    .testimonials{
-        margin-left: 9.39%;
-        margin-right: 9.39%;
-    }
-}
-@media (max-width:450px){
-    .testimonials{
-        width: 349px;
-        margin-left: 7.64%;
-        margin-right: 7.64%;
-    }
-    .testimoialsP{
-        width: 100%;
-    }
-    .groupTestimonials{
-        margin: 0;
-        margin-left: 22px;
-    }
-}
 @media (max-width:375px){
     .testimonials{
         width: 291.77056884765625px;
-        height: 1035px;
-        margin-left: 10.224%;
-        margin-right: 10.224%;
+        height: auto;
         margin-top: 110px;
-        margin-bottom: 0;
+        margin-bottom: 110px;
     }
     .testimonials h2{
         width: 189px;
         height: 28px;
         margin-top: 0;
-        margin-left: 57.66px;
-        margin-right: 45.11px;
         margin-bottom: 25px;
     }
     .testimoialsP{
         width: 286px;
         height: 19px;
         margin-top: 0;
-        margin-left: 2.66px;
-        margin-right: 3.11px;
         margin-bottom: 55px;
     }
     .groupTestimonials{
         width: 288.965087890625px;
         height: 266px;
-        margin-left: 2.81px;
         margin-bottom: 55px;
-        margin-right: 0;
         margin-top: 0;
     }
     .restangle{
